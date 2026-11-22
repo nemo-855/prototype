@@ -1,0 +1,4678 @@
+{
+  "version": "2.25",
+  "themes": {
+    "surface": [
+      "night",
+      "paper"
+    ],
+    "temp": [
+      "amber",
+      "flame",
+      "moon"
+    ]
+  },
+  "variables": {
+    "color.bg": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#090807"
+        },
+        {
+          "value": "#090807",
+          "theme": {
+            "surface": "night"
+          }
+        },
+        {
+          "value": "#efe6d8",
+          "theme": {
+            "surface": "paper"
+          }
+        }
+      ]
+    },
+    "color.bgElevated": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#110e0c"
+        },
+        {
+          "value": "#110e0c",
+          "theme": {
+            "surface": "night"
+          }
+        },
+        {
+          "value": "#f7f1e6",
+          "theme": {
+            "surface": "paper"
+          }
+        }
+      ]
+    },
+    "color.text": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#f6f1ea"
+        },
+        {
+          "value": "#f6f1ea",
+          "theme": {
+            "surface": "night"
+          }
+        },
+        {
+          "value": "#211c17",
+          "theme": {
+            "surface": "paper"
+          }
+        }
+      ]
+    },
+    "color.muted": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#c8bbae"
+        },
+        {
+          "value": "#c8bbae",
+          "theme": {
+            "surface": "night"
+          }
+        },
+        {
+          "value": "#6e6258",
+          "theme": {
+            "surface": "paper"
+          }
+        }
+      ]
+    },
+    "color.button": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#f6f1ea"
+        },
+        {
+          "value": "#f6f1ea",
+          "theme": {
+            "surface": "night"
+          }
+        },
+        {
+          "value": "#211c17",
+          "theme": {
+            "surface": "paper"
+          }
+        }
+      ]
+    },
+    "color.buttonText": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#1a140f"
+        },
+        {
+          "value": "#1a140f",
+          "theme": {
+            "surface": "night"
+          }
+        },
+        {
+          "value": "#efe6d8",
+          "theme": {
+            "surface": "paper"
+          }
+        }
+      ]
+    },
+    "color.line": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#f6f1ea24"
+        },
+        {
+          "value": "#f6f1ea24",
+          "theme": {
+            "surface": "night"
+          }
+        },
+        {
+          "value": "#211c1729",
+          "theme": {
+            "surface": "paper"
+          }
+        }
+      ]
+    },
+    "color.stroke": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#f6f1ea61"
+        },
+        {
+          "value": "#f6f1ea61",
+          "theme": {
+            "surface": "night"
+          }
+        },
+        {
+          "value": "#211c1766",
+          "theme": {
+            "surface": "paper"
+          }
+        }
+      ]
+    },
+    "color.segment": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#09080759"
+        },
+        {
+          "value": "#09080759",
+          "theme": {
+            "surface": "night"
+          }
+        },
+        {
+          "value": "#211c1714",
+          "theme": {
+            "surface": "paper"
+          }
+        }
+      ]
+    },
+    "color.accent": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#f0a05a"
+        },
+        {
+          "value": "#f0a05a",
+          "theme": {
+            "temp": "amber"
+          }
+        },
+        {
+          "value": "#ff7a4a",
+          "theme": {
+            "temp": "flame"
+          }
+        },
+        {
+          "value": "#d5deea",
+          "theme": {
+            "temp": "moon"
+          }
+        }
+      ]
+    },
+    "color.accentInk": {
+      "type": "color",
+      "value": "#1a120c"
+    },
+    "color.hover": {
+      "type": "color",
+      "value": "#ff4d2e"
+    },
+    "color.hoverText": {
+      "type": "color",
+      "value": "#ffffff"
+    },
+    "color.danger": {
+      "type": "color",
+      "value": "#d85a3a"
+    },
+    "color.live": {
+      "type": "color",
+      "value": "#8dba86"
+    },
+    "color.closed": {
+      "type": "color",
+      "value": "#8a8078"
+    },
+    "color.sceneTop": {
+      "type": "color",
+      "value": "#101418"
+    },
+    "color.sceneBottom": {
+      "type": "color",
+      "value": "#070809"
+    },
+    "color.ripple": {
+      "type": "color",
+      "value": "#ffe2bebf"
+    },
+    "color.glow": {
+      "type": "color",
+      "value": "#f0a05aaa"
+    },
+    "color.veilStart": {
+      "type": "color",
+      "value": "#06050400"
+    },
+    "color.veilEnd": {
+      "type": "color",
+      "value": "#060504e6"
+    },
+    "color.clear": {
+      "type": "color",
+      "value": "#00000000"
+    },
+    "font.serif": {
+      "type": "string",
+      "value": "Shippori Mincho"
+    },
+    "font.sans": {
+      "type": "string",
+      "value": "Outfit"
+    },
+    "font.kicker": {
+      "type": "number",
+      "value": 12
+    },
+    "font.ui": {
+      "type": "number",
+      "value": 13
+    },
+    "font.small": {
+      "type": "number",
+      "value": 11
+    },
+    "font.body": {
+      "type": "number",
+      "value": 16
+    },
+    "font.input": {
+      "type": "number",
+      "value": 18
+    },
+    "font.h3": {
+      "type": "number",
+      "value": 22
+    },
+    "font.h2": {
+      "type": "number",
+      "value": 36
+    },
+    "font.display": {
+      "type": "number",
+      "value": 64
+    },
+    "font.menu": {
+      "type": "number",
+      "value": 48
+    },
+    "radius.pill": {
+      "type": "number",
+      "value": 999
+    },
+    "radius.card": {
+      "type": "number",
+      "value": 22
+    },
+    "radius.panel": {
+      "type": "number",
+      "value": 24
+    }
+  },
+  "children": [
+    {
+      "id": "page",
+      "type": "frame",
+      "name": "夜航 UI",
+      "x": 0,
+      "y": 0,
+      "width": 1280,
+      "height": "fit_content",
+      "layout": "vertical",
+      "gap": 36,
+      "padding": [
+        64,
+        56,
+        80,
+        56
+      ],
+      "fill": "$color.bg",
+      "children": [
+        {
+          "id": "intro",
+          "type": "frame",
+          "name": "intro",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 12,
+          "children": [
+            {
+              "id": "introKicker",
+              "type": "text",
+              "content": "LIGHTING ATELIER · TOKYO",
+              "textGrowth": "auto",
+              "fontFamily": "$font.sans",
+              "fontSize": "$font.kicker",
+              "fontWeight": "500",
+              "fill": "$color.accent",
+              "letterSpacing": 2.6
+            },
+            {
+              "id": "introTitle",
+              "type": "text",
+              "content": "触れる夜の、部品。",
+              "textGrowth": "auto",
+              "fontFamily": "$font.serif",
+              "fontSize": "$font.display",
+              "fontWeight": "700",
+              "fill": "$color.text",
+              "letterSpacing": -0.6
+            },
+            {
+              "id": "introLede",
+              "type": "text",
+              "content": "ボタン、調光、手紙の欄。夜航のサイトが次に手で触ることだけを、部品にしています。Pencilのテーマは、地（night / paper）と光（amber / flame / moon）です。",
+              "textGrowth": "fixed-width",
+              "fontFamily": "$font.serif",
+              "fontSize": "$font.body",
+              "fontWeight": "400",
+              "fill": "$color.muted",
+              "lineHeight": 1.75,
+              "width": 640
+            }
+          ]
+        },
+        {
+          "id": "typeBlock",
+          "type": "frame",
+          "name": "typeBlock",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 20,
+          "children": [
+            {
+              "id": "typeTitle",
+              "type": "text",
+              "content": "書体",
+              "textGrowth": "auto",
+              "fontFamily": "$font.serif",
+              "fontSize": "$font.h3",
+              "fontWeight": "700",
+              "fill": "$color.text",
+              "letterSpacing": -0.6
+            },
+            {
+              "id": "typeRow",
+              "type": "frame",
+              "name": "typeRow",
+              "width": "fill_container",
+              "layout": "horizontal",
+              "gap": 48,
+              "alignItems": "start",
+              "children": [
+                {
+                  "id": "typeDisplay",
+                  "type": "frame",
+                  "name": "typeDisplay",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "id": "typeDisplaySample",
+                      "type": "text",
+                      "content": "夜航",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.serif",
+                      "fontSize": "$font.display",
+                      "fontWeight": "700",
+                      "fill": "$color.text",
+                      "letterSpacing": -1.4
+                    },
+                    {
+                      "id": "typeDisplayMeta",
+                      "type": "text",
+                      "content": "Shippori Mincho  700",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.sans",
+                      "fontSize": "$font.small",
+                      "fontWeight": "400",
+                      "fill": "$color.muted",
+                      "letterSpacing": 1.2
+                    }
+                  ]
+                },
+                {
+                  "id": "typeBody",
+                  "type": "frame",
+                  "name": "typeBody",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "id": "typeBodySample",
+                      "type": "text",
+                      "content": "暗い場所を消すのではなく、暗い場所が美しくなるように光を置きます。",
+                      "textGrowth": "fixed-width",
+                      "fontFamily": "$font.serif",
+                      "fontSize": "$font.body",
+                      "fontWeight": "400",
+                      "fill": "$color.text",
+                      "lineHeight": 1.75,
+                      "width": 360
+                    },
+                    {
+                      "id": "typeBodyMeta",
+                      "type": "text",
+                      "content": "本文  16",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.sans",
+                      "fontSize": "$font.small",
+                      "fontWeight": "400",
+                      "fill": "$color.muted",
+                      "letterSpacing": 1.2
+                    }
+                  ]
+                },
+                {
+                  "id": "typeUi",
+                  "type": "frame",
+                  "name": "typeUi",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "id": "typeUiSample",
+                      "type": "text",
+                      "content": "作品を見る",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.sans",
+                      "fontSize": "$font.ui",
+                      "fontWeight": "500",
+                      "fill": "$color.text",
+                      "letterSpacing": 1.6
+                    },
+                    {
+                      "id": "typeKickerSample",
+                      "type": "text",
+                      "content": "YAKŌ",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.sans",
+                      "fontSize": "$font.kicker",
+                      "fontWeight": "500",
+                      "fill": "$color.accent",
+                      "letterSpacing": 2.6
+                    },
+                    {
+                      "id": "typeUiMeta",
+                      "type": "text",
+                      "content": "Outfit  13 / 12",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.sans",
+                      "fontSize": "$font.small",
+                      "fontWeight": "400",
+                      "fill": "$color.muted",
+                      "letterSpacing": 1.2
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "colorBlock",
+          "type": "frame",
+          "name": "colorBlock",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 20,
+          "children": [
+            {
+              "id": "colorTitle",
+              "type": "text",
+              "content": "色",
+              "textGrowth": "auto",
+              "fontFamily": "$font.serif",
+              "fontSize": "$font.h3",
+              "fontWeight": "700",
+              "fill": "$color.text",
+              "letterSpacing": -0.6
+            },
+            {
+              "id": "colorRow",
+              "type": "frame",
+              "name": "colorRow",
+              "width": "fill_container",
+              "layout": "horizontal",
+              "gap": 16,
+              "alignItems": "start",
+              "children": [
+                {
+                  "id": "swNight",
+                  "type": "frame",
+                  "name": "夜",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "width": 104,
+                  "children": [
+                    {
+                      "id": "swNightChip",
+                      "type": "frame",
+                      "width": 104,
+                      "height": 64,
+                      "cornerRadius": 10,
+                      "fill": "$color.bg",
+                      "stroke": "$color.line",
+                      "strokeWidth": 1
+                    },
+                    {
+                      "id": "swNightLabel",
+                      "type": "text",
+                      "content": "夜",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.serif",
+                      "fontSize": 14,
+                      "fontWeight": "700",
+                      "fill": "$color.text"
+                    },
+                    {
+                      "id": "swNightMeta",
+                      "type": "text",
+                      "content": "surface night",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.sans",
+                      "fontSize": "$font.small",
+                      "fontWeight": "400",
+                      "fill": "$color.muted",
+                      "letterSpacing": 0.4
+                    }
+                  ]
+                },
+                {
+                  "id": "swPaper",
+                  "type": "frame",
+                  "name": "紙",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "width": 104,
+                  "children": [
+                    {
+                      "id": "swPaperChip",
+                      "type": "frame",
+                      "theme": {
+                        "surface": "paper"
+                      },
+                      "width": 104,
+                      "height": 64,
+                      "cornerRadius": 10,
+                      "fill": "$color.bg",
+                      "stroke": "$color.line",
+                      "strokeWidth": 1
+                    },
+                    {
+                      "id": "swPaperLabel",
+                      "type": "text",
+                      "content": "紙",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.serif",
+                      "fontSize": 14,
+                      "fontWeight": "700",
+                      "fill": "$color.text"
+                    },
+                    {
+                      "id": "swPaperMeta",
+                      "type": "text",
+                      "content": "surface paper",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.sans",
+                      "fontSize": "$font.small",
+                      "fontWeight": "400",
+                      "fill": "$color.muted",
+                      "letterSpacing": 0.4
+                    }
+                  ]
+                },
+                {
+                  "id": "swText",
+                  "type": "frame",
+                  "name": "文字",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "width": 104,
+                  "children": [
+                    {
+                      "id": "swTextChip",
+                      "type": "frame",
+                      "width": 104,
+                      "height": 64,
+                      "cornerRadius": 10,
+                      "fill": "$color.text",
+                      "stroke": "$color.line",
+                      "strokeWidth": 1
+                    },
+                    {
+                      "id": "swTextLabel",
+                      "type": "text",
+                      "content": "文字",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.serif",
+                      "fontSize": 14,
+                      "fontWeight": "700",
+                      "fill": "$color.text"
+                    },
+                    {
+                      "id": "swTextMeta",
+                      "type": "text",
+                      "content": "text",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.sans",
+                      "fontSize": "$font.small",
+                      "fontWeight": "400",
+                      "fill": "$color.muted",
+                      "letterSpacing": 0.4
+                    }
+                  ]
+                },
+                {
+                  "id": "swMuted",
+                  "type": "frame",
+                  "name": "抑制",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "width": 104,
+                  "children": [
+                    {
+                      "id": "swMutedChip",
+                      "type": "frame",
+                      "width": 104,
+                      "height": 64,
+                      "cornerRadius": 10,
+                      "fill": "$color.muted",
+                      "stroke": "$color.line",
+                      "strokeWidth": 1
+                    },
+                    {
+                      "id": "swMutedLabel",
+                      "type": "text",
+                      "content": "抑制",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.serif",
+                      "fontSize": 14,
+                      "fontWeight": "700",
+                      "fill": "$color.text"
+                    },
+                    {
+                      "id": "swMutedMeta",
+                      "type": "text",
+                      "content": "muted",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.sans",
+                      "fontSize": "$font.small",
+                      "fontWeight": "400",
+                      "fill": "$color.muted",
+                      "letterSpacing": 0.4
+                    }
+                  ]
+                },
+                {
+                  "id": "swAmber",
+                  "type": "frame",
+                  "name": "琥珀",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "width": 104,
+                  "children": [
+                    {
+                      "id": "swAmberChip",
+                      "type": "frame",
+                      "width": 104,
+                      "height": 64,
+                      "cornerRadius": 10,
+                      "fill": "$color.accent",
+                      "stroke": "$color.line",
+                      "strokeWidth": 1
+                    },
+                    {
+                      "id": "swAmberLabel",
+                      "type": "text",
+                      "content": "琥珀",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.serif",
+                      "fontSize": 14,
+                      "fontWeight": "700",
+                      "fill": "$color.text"
+                    },
+                    {
+                      "id": "swAmberMeta",
+                      "type": "text",
+                      "content": "temp amber",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.sans",
+                      "fontSize": "$font.small",
+                      "fontWeight": "400",
+                      "fill": "$color.muted",
+                      "letterSpacing": 0.4
+                    }
+                  ]
+                },
+                {
+                  "id": "swFlame",
+                  "type": "frame",
+                  "name": "灯火",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "width": 104,
+                  "children": [
+                    {
+                      "id": "swFlameChip",
+                      "type": "frame",
+                      "theme": {
+                        "temp": "flame"
+                      },
+                      "width": 104,
+                      "height": 64,
+                      "cornerRadius": 10,
+                      "fill": "$color.accent",
+                      "stroke": "$color.line",
+                      "strokeWidth": 1
+                    },
+                    {
+                      "id": "swFlameLabel",
+                      "type": "text",
+                      "content": "灯火",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.serif",
+                      "fontSize": 14,
+                      "fontWeight": "700",
+                      "fill": "$color.text"
+                    },
+                    {
+                      "id": "swFlameMeta",
+                      "type": "text",
+                      "content": "temp flame",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.sans",
+                      "fontSize": "$font.small",
+                      "fontWeight": "400",
+                      "fill": "$color.muted",
+                      "letterSpacing": 0.4
+                    }
+                  ]
+                },
+                {
+                  "id": "swMoon",
+                  "type": "frame",
+                  "name": "月",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "width": 104,
+                  "children": [
+                    {
+                      "id": "swMoonChip",
+                      "type": "frame",
+                      "theme": {
+                        "temp": "moon"
+                      },
+                      "width": 104,
+                      "height": 64,
+                      "cornerRadius": 10,
+                      "fill": "$color.accent",
+                      "stroke": "$color.line",
+                      "strokeWidth": 1
+                    },
+                    {
+                      "id": "swMoonLabel",
+                      "type": "text",
+                      "content": "月",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.serif",
+                      "fontSize": 14,
+                      "fontWeight": "700",
+                      "fill": "$color.text"
+                    },
+                    {
+                      "id": "swMoonMeta",
+                      "type": "text",
+                      "content": "temp moon",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.sans",
+                      "fontSize": "$font.small",
+                      "fontWeight": "400",
+                      "fill": "$color.muted",
+                      "letterSpacing": 0.4
+                    }
+                  ]
+                },
+                {
+                  "id": "swHover",
+                  "type": "frame",
+                  "name": "ホバー",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "width": 104,
+                  "children": [
+                    {
+                      "id": "swHoverChip",
+                      "type": "frame",
+                      "width": 104,
+                      "height": 64,
+                      "cornerRadius": 10,
+                      "fill": "$color.hover",
+                      "stroke": "$color.line",
+                      "strokeWidth": 1
+                    },
+                    {
+                      "id": "swHoverLabel",
+                      "type": "text",
+                      "content": "ホバー",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.serif",
+                      "fontSize": 14,
+                      "fontWeight": "700",
+                      "fill": "$color.text"
+                    },
+                    {
+                      "id": "swHoverMeta",
+                      "type": "text",
+                      "content": "hover",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.sans",
+                      "fontSize": "$font.small",
+                      "fontWeight": "400",
+                      "fill": "$color.muted",
+                      "letterSpacing": 0.4
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ruleButtons",
+          "type": "rectangle",
+          "name": "区切り",
+          "width": "fill_container",
+          "height": 1,
+          "fill": "$color.line"
+        },
+        {
+          "id": "buttonBlock",
+          "type": "frame",
+          "name": "buttonBlock",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 20,
+          "children": [
+            {
+              "id": "buttonKicker",
+              "type": "text",
+              "content": "BUTTON",
+              "textGrowth": "auto",
+              "fontFamily": "$font.sans",
+              "fontSize": "$font.kicker",
+              "fontWeight": "500",
+              "fill": "$color.accent",
+              "letterSpacing": 2.6
+            },
+            {
+              "id": "buttonTitle",
+              "type": "text",
+              "content": "ボタン",
+              "textGrowth": "auto",
+              "fontFamily": "$font.serif",
+              "fontSize": "$font.h2",
+              "fontWeight": "700",
+              "fill": "$color.text",
+              "letterSpacing": -0.6
+            },
+            {
+              "id": "buttonLede",
+              "type": "text",
+              "content": "主ボタンは夜に白、紙の地では墨。ホバーはどちらも灯の赤で、文字は白に替わります。押せないときは不透明度だけを落とします。",
+              "textGrowth": "fixed-width",
+              "fontFamily": "$font.serif",
+              "fontSize": "$font.body",
+              "fontWeight": "400",
+              "fill": "$color.muted",
+              "lineHeight": 1.75,
+              "width": 640
+            },
+            {
+              "id": "buttonPrimaryRow",
+              "type": "frame",
+              "name": "buttonPrimaryRow",
+              "width": "fill_container",
+              "layout": "horizontal",
+              "gap": 28,
+              "alignItems": "start",
+              "children": [
+                {
+                  "id": "specPrimary",
+                  "type": "frame",
+                  "name": "通常",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "id": "specPrimaryCap",
+                      "type": "text",
+                      "content": "通常",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.sans",
+                      "fontSize": "$font.small",
+                      "fontWeight": "500",
+                      "fill": "$color.muted",
+                      "letterSpacing": 1.6
+                    },
+                    {
+                      "id": "uiButton",
+                      "type": "frame",
+                      "name": "主ボタン Primary",
+                      "reusable": true,
+                      "layout": "horizontal",
+                      "alignItems": "center",
+                      "gap": 10,
+                      "padding": [
+                        14,
+                        22
+                      ],
+                      "cornerRadius": "$radius.pill",
+                      "fill": "$color.button",
+                      "children": [
+                        {
+                          "id": "uiButtonLabel",
+                          "type": "text",
+                          "content": "作品を見る",
+                          "textGrowth": "auto",
+                          "fontFamily": "$font.sans",
+                          "fontSize": "$font.ui",
+                          "fontWeight": "500",
+                          "fill": "$color.buttonText",
+                          "letterSpacing": 1.6
+                        },
+                        {
+                          "id": "uiButtonIcon",
+                          "type": "icon",
+                          "library": "lucide",
+                          "icon": "arrow-right",
+                          "width": 14,
+                          "height": 14,
+                          "fill": "$color.buttonText"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "specPrimaryHover",
+                  "type": "frame",
+                  "name": "ホバー",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "id": "specPrimaryHoverCap",
+                      "type": "text",
+                      "content": "ホバー",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.sans",
+                      "fontSize": "$font.small",
+                      "fontWeight": "500",
+                      "fill": "$color.muted",
+                      "letterSpacing": 1.6
+                    },
+                    {
+                      "id": "btnPrimaryHover",
+                      "type": "ref",
+                      "ref": "uiButton",
+                      "fill": "$color.hover",
+                      "stroke": "$color.clear",
+                      "descendants": {
+                        "uiButtonLabel": {
+                          "fill": "$color.hoverText"
+                        },
+                        "uiButtonIcon": {
+                          "fill": "$color.hoverText"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "specPrimaryDisabled",
+                  "type": "frame",
+                  "name": "押せない",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "id": "specPrimaryDisabledCap",
+                      "type": "text",
+                      "content": "押せない",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.sans",
+                      "fontSize": "$font.small",
+                      "fontWeight": "500",
+                      "fill": "$color.muted",
+                      "letterSpacing": 1.6
+                    },
+                    {
+                      "id": "btnPrimaryDisabled",
+                      "type": "ref",
+                      "ref": "uiButton",
+                      "opacity": 0.38
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "buttonGhostRow",
+              "type": "frame",
+              "name": "buttonGhostRow",
+              "width": "fill_container",
+              "layout": "horizontal",
+              "gap": 28,
+              "alignItems": "start",
+              "children": [
+                {
+                  "id": "specGhost",
+                  "type": "frame",
+                  "name": "ゴースト",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "id": "specGhostCap",
+                      "type": "text",
+                      "content": "ゴースト",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.sans",
+                      "fontSize": "$font.small",
+                      "fontWeight": "500",
+                      "fill": "$color.muted",
+                      "letterSpacing": 1.6
+                    },
+                    {
+                      "id": "uiButtonGhost",
+                      "type": "frame",
+                      "name": "ゴースト Ghost",
+                      "reusable": true,
+                      "layout": "horizontal",
+                      "alignItems": "center",
+                      "gap": 10,
+                      "padding": [
+                        14,
+                        22
+                      ],
+                      "cornerRadius": "$radius.pill",
+                      "fill": "$color.clear",
+                      "stroke": "$color.stroke",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "children": [
+                        {
+                          "id": "uiButtonGhostLabel",
+                          "type": "text",
+                          "content": "アトリエへ",
+                          "textGrowth": "auto",
+                          "fontFamily": "$font.sans",
+                          "fontSize": "$font.ui",
+                          "fontWeight": "500",
+                          "fill": "$color.text",
+                          "letterSpacing": 1.6
+                        },
+                        {
+                          "id": "uiButtonGhostIcon",
+                          "type": "icon",
+                          "library": "lucide",
+                          "icon": "arrow-right",
+                          "width": 14,
+                          "height": 14,
+                          "fill": "$color.text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "specGhostHover",
+                  "type": "frame",
+                  "name": "ゴーストのホバー",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "id": "specGhostHoverCap",
+                      "type": "text",
+                      "content": "ゴーストのホバー",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.sans",
+                      "fontSize": "$font.small",
+                      "fontWeight": "500",
+                      "fill": "$color.muted",
+                      "letterSpacing": 1.6
+                    },
+                    {
+                      "id": "btnGhostHover",
+                      "type": "ref",
+                      "ref": "uiButtonGhost",
+                      "fill": "$color.hover",
+                      "stroke": "$color.clear",
+                      "descendants": {
+                        "uiButtonGhostLabel": {
+                          "fill": "$color.hoverText"
+                        },
+                        "uiButtonGhostIcon": {
+                          "fill": "$color.hoverText"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "specGhostDisabled",
+                  "type": "frame",
+                  "name": "押せない",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "id": "specGhostDisabledCap",
+                      "type": "text",
+                      "content": "押せない",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.sans",
+                      "fontSize": "$font.small",
+                      "fontWeight": "500",
+                      "fill": "$color.muted",
+                      "letterSpacing": 1.6
+                    },
+                    {
+                      "id": "btnGhostDisabled",
+                      "type": "ref",
+                      "ref": "uiButtonGhost",
+                      "opacity": 0.38
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "buttonQuietRow",
+              "type": "frame",
+              "name": "buttonQuietRow",
+              "width": "fill_container",
+              "layout": "horizontal",
+              "gap": 28,
+              "alignItems": "start",
+              "children": [
+                {
+                  "id": "specText",
+                  "type": "frame",
+                  "name": "文字",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "id": "specTextCap",
+                      "type": "text",
+                      "content": "文字",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.sans",
+                      "fontSize": "$font.small",
+                      "fontWeight": "500",
+                      "fill": "$color.muted",
+                      "letterSpacing": 1.6
+                    },
+                    {
+                      "id": "uiButtonText",
+                      "type": "frame",
+                      "name": "文字ボタン Text",
+                      "reusable": true,
+                      "layout": "horizontal",
+                      "alignItems": "center",
+                      "gap": 0,
+                      "padding": 0,
+                      "cornerRadius": 0,
+                      "fill": "$color.clear",
+                      "children": [
+                        {
+                          "id": "uiButtonTextLabel",
+                          "type": "text",
+                          "content": "前の作品",
+                          "textGrowth": "auto",
+                          "fontFamily": "$font.sans",
+                          "fontSize": "$font.ui",
+                          "fontWeight": "500",
+                          "fill": "$color.accent",
+                          "letterSpacing": 1.6
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "specIcon",
+                  "type": "frame",
+                  "name": "アイコン",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "id": "specIconCap",
+                      "type": "text",
+                      "content": "アイコン",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.sans",
+                      "fontSize": "$font.small",
+                      "fontWeight": "500",
+                      "fill": "$color.muted",
+                      "letterSpacing": 1.6
+                    },
+                    {
+                      "id": "uiIconButton",
+                      "type": "frame",
+                      "name": "アイコンボタン Icon",
+                      "reusable": true,
+                      "width": 44,
+                      "height": 44,
+                      "cornerRadius": "$radius.pill",
+                      "layout": "horizontal",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "stroke": "$color.stroke",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "fill": "$color.clear",
+                      "children": [
+                        {
+                          "id": "uiIconButtonIcon",
+                          "type": "icon",
+                          "library": "lucide",
+                          "icon": "arrow-right",
+                          "width": 16,
+                          "height": 16,
+                          "fill": "$color.text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "specIconClose",
+                  "type": "frame",
+                  "name": "閉じるアイコン",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "id": "specIconCloseCap",
+                      "type": "text",
+                      "content": "閉じるアイコン",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.sans",
+                      "fontSize": "$font.small",
+                      "fontWeight": "500",
+                      "fill": "$color.muted",
+                      "letterSpacing": 1.6
+                    },
+                    {
+                      "id": "btnIconClose",
+                      "type": "ref",
+                      "ref": "uiIconButton",
+                      "descendants": {
+                        "uiIconButtonIcon": {
+                          "icon": "x"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "specClose",
+                  "type": "frame",
+                  "name": "下線",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "id": "specCloseCap",
+                      "type": "text",
+                      "content": "下線",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.sans",
+                      "fontSize": "$font.small",
+                      "fontWeight": "500",
+                      "fill": "$color.muted",
+                      "letterSpacing": 1.6
+                    },
+                    {
+                      "id": "uiClose",
+                      "type": "text",
+                      "name": "閉じる Close",
+                      "content": "閉じる",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.sans",
+                      "fontSize": "$font.kicker",
+                      "fontWeight": "500",
+                      "fill": "$color.text",
+                      "letterSpacing": 1.8,
+                      "underline": true,
+                      "reusable": true
+                    }
+                  ]
+                },
+                {
+                  "id": "specMenu",
+                  "type": "frame",
+                  "name": "メニュー",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "id": "specMenuCap",
+                      "type": "text",
+                      "content": "メニュー",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.sans",
+                      "fontSize": "$font.small",
+                      "fontWeight": "500",
+                      "fill": "$color.muted",
+                      "letterSpacing": 1.6
+                    },
+                    {
+                      "id": "uiMenuButton",
+                      "type": "text",
+                      "name": "メニューボタン Menu button",
+                      "content": "メニュー",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.sans",
+                      "fontSize": "$font.kicker",
+                      "fontWeight": "500",
+                      "fill": "$color.text",
+                      "letterSpacing": 1.8,
+                      "underline": true,
+                      "reusable": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "buttonPaper",
+              "type": "frame",
+              "name": "紙の地",
+              "theme": {
+                "surface": "paper"
+              },
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 20,
+              "padding": 28,
+              "fill": "$color.bg",
+              "children": [
+                {
+                  "id": "buttonPaperCap",
+                  "type": "text",
+                  "content": "紙の地",
+                  "textGrowth": "auto",
+                  "fontFamily": "$font.sans",
+                  "fontSize": "$font.small",
+                  "fontWeight": "500",
+                  "fill": "$color.muted",
+                  "letterSpacing": 1.6
+                },
+                {
+                  "id": "buttonPaperRow",
+                  "type": "frame",
+                  "name": "buttonPaperRow",
+                  "width": "fill_container",
+                  "layout": "horizontal",
+                  "gap": 16,
+                  "alignItems": "start",
+                  "children": [
+                    {
+                      "id": "btnPaperPrimary",
+                      "type": "ref",
+                      "ref": "uiButton",
+                      "descendants": {
+                        "uiButtonLabel": {
+                          "content": "手紙を書く"
+                        }
+                      }
+                    },
+                    {
+                      "id": "btnPaperGhost",
+                      "type": "ref",
+                      "ref": "uiButtonGhost",
+                      "descendants": {
+                        "uiButtonGhostLabel": {
+                          "content": "宛先をコピー"
+                        }
+                      }
+                    },
+                    {
+                      "id": "btnPaperText",
+                      "type": "ref",
+                      "ref": "uiButtonText",
+                      "descendants": {
+                        "uiButtonTextLabel": {
+                          "content": "前の作品"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ruleControls",
+          "type": "rectangle",
+          "name": "区切り",
+          "width": "fill_container",
+          "height": 1,
+          "fill": "$color.line"
+        },
+        {
+          "id": "controlBlock",
+          "type": "frame",
+          "name": "controlBlock",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 20,
+          "children": [
+            {
+              "id": "controlKicker",
+              "type": "text",
+              "content": "LIGHT",
+              "textGrowth": "auto",
+              "fontFamily": "$font.sans",
+              "fontSize": "$font.kicker",
+              "fontWeight": "500",
+              "fill": "$color.accent",
+              "letterSpacing": 2.6
+            },
+            {
+              "id": "controlTitle",
+              "type": "text",
+              "content": "調光",
+              "textGrowth": "auto",
+              "fontFamily": "$font.serif",
+              "fontSize": "$font.h2",
+              "fontWeight": "700",
+              "fill": "$color.text",
+              "letterSpacing": -0.6
+            },
+            {
+              "id": "controlLede",
+              "type": "text",
+              "content": "明るさ、色温度、光の高さ、ビーム、風。光源は足さず、一つの夜をつまみで動かします。色温度の軌道は 1800K から 6500K。頁の縁は 2800K です。",
+              "textGrowth": "fixed-width",
+              "fontFamily": "$font.serif",
+              "fontSize": "$font.body",
+              "fontWeight": "400",
+              "fill": "$color.muted",
+              "lineHeight": 1.75,
+              "width": 640
+            },
+            {
+              "id": "sliderRow",
+              "type": "frame",
+              "name": "sliderRow",
+              "width": "fill_container",
+              "layout": "horizontal",
+              "gap": 36,
+              "alignItems": "start",
+              "children": [
+                {
+                  "id": "specBright",
+                  "type": "frame",
+                  "name": "明るさ",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "id": "specBrightCap",
+                      "type": "text",
+                      "content": "明るさ",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.sans",
+                      "fontSize": "$font.small",
+                      "fontWeight": "500",
+                      "fill": "$color.muted",
+                      "letterSpacing": 1.6
+                    },
+                    {
+                      "id": "uiSlider",
+                      "type": "frame",
+                      "name": "スライダー Slider",
+                      "reusable": true,
+                      "width": 320,
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "id": "uiSliderHead",
+                          "type": "frame",
+                          "width": "fill_container",
+                          "layout": "horizontal",
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "id": "uiSliderLabel",
+                              "type": "text",
+                              "content": "明るさ",
+                              "textGrowth": "auto",
+                              "fontFamily": "$font.sans",
+                              "fontSize": "$font.kicker",
+                              "fontWeight": "500",
+                              "fill": "$color.muted",
+                              "letterSpacing": 1.6
+                            },
+                            {
+                              "id": "uiSliderValue",
+                              "type": "text",
+                              "content": "62%",
+                              "textGrowth": "auto",
+                              "fontFamily": "$font.sans",
+                              "fontSize": "$font.kicker",
+                              "fontWeight": "500",
+                              "fill": "$color.text",
+                              "letterSpacing": 1.2
+                            }
+                          ]
+                        },
+                        {
+                          "id": "uiSliderTrack",
+                          "type": "frame",
+                          "name": "軌道",
+                          "width": 320,
+                          "height": 28,
+                          "layout": "none",
+                          "children": [
+                            {
+                              "id": "uiSliderRail",
+                              "type": "rectangle",
+                              "x": 0,
+                              "y": 13,
+                              "width": 320,
+                              "height": 2,
+                              "cornerRadius": 1,
+                              "fill": "$color.line"
+                            },
+                            {
+                              "id": "uiSliderFill",
+                              "type": "rectangle",
+                              "name": "量",
+                              "x": 0,
+                              "y": 13,
+                              "width": 198,
+                              "height": 2,
+                              "cornerRadius": 1,
+                              "fill": "$color.accent"
+                            },
+                            {
+                              "id": "uiSliderThumb",
+                              "type": "ellipse",
+                              "name": "つまみ",
+                              "x": 190,
+                              "y": 6,
+                              "width": 16,
+                              "height": 16,
+                              "fill": "$color.text",
+                              "stroke": "$color.accent",
+                              "strokeWidth": 2,
+                              "effect": {
+                                "type": "shadow",
+                                "shadowType": "outer",
+                                "offset": {
+                                  "x": 0,
+                                  "y": 0
+                                },
+                                "blur": 14,
+                                "color": "$color.accent"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "id": "uiSliderScale",
+                          "type": "frame",
+                          "width": "fill_container",
+                          "layout": "horizontal",
+                          "justifyContent": "space_between",
+                          "children": [
+                            {
+                              "id": "uiSliderMin",
+                              "type": "text",
+                              "content": "0",
+                              "textGrowth": "auto",
+                              "fontFamily": "$font.sans",
+                              "fontSize": "$font.small",
+                              "fontWeight": "400",
+                              "fill": "$color.muted",
+                              "letterSpacing": 0.6
+                            },
+                            {
+                              "id": "uiSliderMax",
+                              "type": "text",
+                              "content": "100",
+                              "textGrowth": "auto",
+                              "fontFamily": "$font.sans",
+                              "fontSize": "$font.small",
+                              "fontWeight": "400",
+                              "fill": "$color.muted",
+                              "letterSpacing": 0.6
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "specHeight",
+                  "type": "frame",
+                  "name": "高さ",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "id": "specHeightCap",
+                      "type": "text",
+                      "content": "高さ",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.sans",
+                      "fontSize": "$font.small",
+                      "fontWeight": "500",
+                      "fill": "$color.muted",
+                      "letterSpacing": 1.6
+                    },
+                    {
+                      "id": "sliderHeight",
+                      "type": "ref",
+                      "ref": "uiSlider",
+                      "descendants": {
+                        "uiSliderLabel": {
+                          "content": "光の高さ"
+                        },
+                        "uiSliderValue": {
+                          "content": "1.4 m"
+                        },
+                        "uiSliderMin": {
+                          "content": "0.4 m"
+                        },
+                        "uiSliderMax": {
+                          "content": "4.0 m"
+                        },
+                        "uiSliderFill": {
+                          "width": 89
+                        },
+                        "uiSliderThumb": {
+                          "x": 81
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "specBeam",
+                  "type": "frame",
+                  "name": "ビーム",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "id": "specBeamCap",
+                      "type": "text",
+                      "content": "ビーム",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.sans",
+                      "fontSize": "$font.small",
+                      "fontWeight": "500",
+                      "fill": "$color.muted",
+                      "letterSpacing": 1.6
+                    },
+                    {
+                      "id": "sliderBeam",
+                      "type": "ref",
+                      "ref": "uiSlider",
+                      "descendants": {
+                        "uiSliderLabel": {
+                          "content": "ビーム"
+                        },
+                        "uiSliderValue": {
+                          "content": "18°"
+                        },
+                        "uiSliderMin": {
+                          "content": "8°"
+                        },
+                        "uiSliderMax": {
+                          "content": "40°"
+                        },
+                        "uiSliderFill": {
+                          "width": 100
+                        },
+                        "uiSliderThumb": {
+                          "x": 92
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "kelvinRow",
+              "type": "frame",
+              "name": "kelvinRow",
+              "width": "fill_container",
+              "layout": "horizontal",
+              "gap": 36,
+              "alignItems": "start",
+              "children": [
+                {
+                  "id": "specKelvin",
+                  "type": "frame",
+                  "name": "色温度",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "id": "specKelvinCap",
+                      "type": "text",
+                      "content": "色温度",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.sans",
+                      "fontSize": "$font.small",
+                      "fontWeight": "500",
+                      "fill": "$color.muted",
+                      "letterSpacing": 1.6
+                    },
+                    {
+                      "id": "uiKelvin",
+                      "type": "frame",
+                      "name": "色温度 Kelvin",
+                      "reusable": true,
+                      "width": 320,
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "id": "uiKelvinHead",
+                          "type": "frame",
+                          "width": "fill_container",
+                          "layout": "horizontal",
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "id": "uiKelvinLabel",
+                              "type": "text",
+                              "content": "色温度",
+                              "textGrowth": "auto",
+                              "fontFamily": "$font.sans",
+                              "fontSize": "$font.kicker",
+                              "fontWeight": "500",
+                              "fill": "$color.muted",
+                              "letterSpacing": 1.6
+                            },
+                            {
+                              "id": "uiKelvinValue",
+                              "type": "text",
+                              "content": "2800K",
+                              "textGrowth": "auto",
+                              "fontFamily": "$font.sans",
+                              "fontSize": "$font.kicker",
+                              "fontWeight": "500",
+                              "fill": "$color.text",
+                              "letterSpacing": 1.2
+                            }
+                          ]
+                        },
+                        {
+                          "id": "uiKelvinTrack",
+                          "type": "frame",
+                          "name": "軌道",
+                          "width": 320,
+                          "height": 28,
+                          "layout": "none",
+                          "children": [
+                            {
+                              "id": "uiKelvinRail",
+                              "type": "rectangle",
+                              "x": 0,
+                              "y": 12,
+                              "width": 320,
+                              "height": 4,
+                              "cornerRadius": 2,
+                              "fill": {
+                                "type": "gradient",
+                                "gradientType": "linear",
+                                "rotation": 270,
+                                "size": {
+                                  "width": 1,
+                                  "height": 1
+                                },
+                                "colors": [
+                                  {
+                                    "color": "#ff6a2a",
+                                    "position": 0
+                                  },
+                                  {
+                                    "color": "#f0a05a",
+                                    "position": 0.28
+                                  },
+                                  {
+                                    "color": "#fff1d6",
+                                    "position": 0.58
+                                  },
+                                  {
+                                    "color": "#d5deea",
+                                    "position": 1
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "id": "uiKelvinThumb",
+                              "type": "ellipse",
+                              "name": "つまみ",
+                              "x": 60,
+                              "y": 6,
+                              "width": 16,
+                              "height": 16,
+                              "fill": "$color.text",
+                              "stroke": "$color.accent",
+                              "strokeWidth": 2,
+                              "effect": {
+                                "type": "shadow",
+                                "shadowType": "outer",
+                                "offset": {
+                                  "x": 0,
+                                  "y": 0
+                                },
+                                "blur": 14,
+                                "color": "$color.accent"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "id": "uiKelvinScale",
+                          "type": "frame",
+                          "width": "fill_container",
+                          "layout": "horizontal",
+                          "justifyContent": "space_between",
+                          "children": [
+                            {
+                              "id": "uiKelvinMin",
+                              "type": "text",
+                              "content": "1800K",
+                              "textGrowth": "auto",
+                              "fontFamily": "$font.sans",
+                              "fontSize": "$font.small",
+                              "fontWeight": "400",
+                              "fill": "$color.muted",
+                              "letterSpacing": 0.6
+                            },
+                            {
+                              "id": "uiKelvinMax",
+                              "type": "text",
+                              "content": "6500K",
+                              "textGrowth": "auto",
+                              "fontFamily": "$font.sans",
+                              "fontSize": "$font.small",
+                              "fontWeight": "400",
+                              "fill": "$color.muted",
+                              "letterSpacing": 0.6
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "specDrag",
+                  "type": "frame",
+                  "name": "ドラッグ中",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "id": "specDragCap",
+                      "type": "text",
+                      "content": "ドラッグ中",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.sans",
+                      "fontSize": "$font.small",
+                      "fontWeight": "500",
+                      "fill": "$color.muted",
+                      "letterSpacing": 1.6
+                    },
+                    {
+                      "id": "sliderDrag",
+                      "type": "ref",
+                      "ref": "uiSlider",
+                      "descendants": {
+                        "uiSliderValue": {
+                          "content": "62%",
+                          "fill": "$color.accent"
+                        },
+                        "uiSliderThumb": {
+                          "width": 20,
+                          "height": 20,
+                          "x": 188,
+                          "y": 4
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "specWind",
+                  "type": "frame",
+                  "name": "閾値",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "id": "specWindCap",
+                      "type": "text",
+                      "content": "閾値",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.sans",
+                      "fontSize": "$font.small",
+                      "fontWeight": "500",
+                      "fill": "$color.muted",
+                      "letterSpacing": 1.6
+                    },
+                    {
+                      "id": "sliderWind",
+                      "type": "ref",
+                      "ref": "uiSlider",
+                      "descendants": {
+                        "uiSliderLabel": {
+                          "content": "風速"
+                        },
+                        "uiSliderValue": {
+                          "content": "3.0 m/s"
+                        },
+                        "uiSliderMin": {
+                          "content": "0"
+                        },
+                        "uiSliderMax": {
+                          "content": "8 m/s"
+                        },
+                        "uiSliderFill": {
+                          "width": 120
+                        },
+                        "uiSliderThumb": {
+                          "x": 112
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "segmentRow",
+              "type": "frame",
+              "name": "segmentRow",
+              "width": "fill_container",
+              "layout": "horizontal",
+              "gap": 28,
+              "alignItems": "start",
+              "children": [
+                {
+                  "id": "specSegment",
+                  "type": "frame",
+                  "name": "琥珀が選択",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "id": "specSegmentCap",
+                      "type": "text",
+                      "content": "琥珀が選択",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.sans",
+                      "fontSize": "$font.small",
+                      "fontWeight": "500",
+                      "fill": "$color.muted",
+                      "letterSpacing": 1.6
+                    },
+                    {
+                      "id": "uiSegment",
+                      "type": "frame",
+                      "name": "光の温度 Segment",
+                      "reusable": true,
+                      "layout": "horizontal",
+                      "alignItems": "center",
+                      "gap": 4,
+                      "padding": 4,
+                      "cornerRadius": "$radius.pill",
+                      "fill": "$color.segment",
+                      "stroke": "$color.stroke",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "children": [
+                        {
+                          "id": "pillAmber",
+                          "type": "frame",
+                          "name": "琥珀",
+                          "layout": "horizontal",
+                          "alignItems": "center",
+                          "justifyContent": "center",
+                          "padding": [
+                            8,
+                            14
+                          ],
+                          "cornerRadius": "$radius.pill",
+                          "fill": "$color.accent",
+                          "children": [
+                            {
+                              "id": "pillAmberLabel",
+                              "type": "text",
+                              "content": "琥珀",
+                              "textGrowth": "auto",
+                              "fontFamily": "$font.sans",
+                              "fontSize": "$font.kicker",
+                              "fontWeight": "500",
+                              "fill": "$color.accentInk",
+                              "letterSpacing": 1.4
+                            }
+                          ]
+                        },
+                        {
+                          "id": "pillFlame",
+                          "type": "frame",
+                          "name": "灯火",
+                          "layout": "horizontal",
+                          "alignItems": "center",
+                          "justifyContent": "center",
+                          "padding": [
+                            8,
+                            14
+                          ],
+                          "cornerRadius": "$radius.pill",
+                          "fill": "$color.clear",
+                          "children": [
+                            {
+                              "id": "pillFlameLabel",
+                              "type": "text",
+                              "content": "灯火",
+                              "textGrowth": "auto",
+                              "fontFamily": "$font.sans",
+                              "fontSize": "$font.kicker",
+                              "fontWeight": "500",
+                              "fill": "$color.text",
+                              "letterSpacing": 1.4
+                            }
+                          ]
+                        },
+                        {
+                          "id": "pillMoon",
+                          "type": "frame",
+                          "name": "月",
+                          "layout": "horizontal",
+                          "alignItems": "center",
+                          "justifyContent": "center",
+                          "padding": [
+                            8,
+                            14
+                          ],
+                          "cornerRadius": "$radius.pill",
+                          "fill": "$color.clear",
+                          "children": [
+                            {
+                              "id": "pillMoonLabel",
+                              "type": "text",
+                              "content": "月",
+                              "textGrowth": "auto",
+                              "fontFamily": "$font.sans",
+                              "fontSize": "$font.kicker",
+                              "fontWeight": "500",
+                              "fill": "$color.text",
+                              "letterSpacing": 1.4
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "specSegmentFlame",
+                  "type": "frame",
+                  "name": "灯火が選択",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "id": "specSegmentFlameCap",
+                      "type": "text",
+                      "content": "灯火が選択",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.sans",
+                      "fontSize": "$font.small",
+                      "fontWeight": "500",
+                      "fill": "$color.muted",
+                      "letterSpacing": 1.6
+                    },
+                    {
+                      "id": "segmentFlame",
+                      "type": "ref",
+                      "ref": "uiSegment",
+                      "theme": {
+                        "temp": "flame"
+                      },
+                      "descendants": {
+                        "pillAmber": {
+                          "fill": "$color.clear"
+                        },
+                        "pillAmberLabel": {
+                          "fill": "$color.text"
+                        },
+                        "pillFlame": {
+                          "fill": "$color.accent"
+                        },
+                        "pillFlameLabel": {
+                          "fill": "$color.accentInk"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "specSegmentMoon",
+                  "type": "frame",
+                  "name": "月が選択",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "id": "specSegmentMoonCap",
+                      "type": "text",
+                      "content": "月が選択",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.sans",
+                      "fontSize": "$font.small",
+                      "fontWeight": "500",
+                      "fill": "$color.muted",
+                      "letterSpacing": 1.6
+                    },
+                    {
+                      "id": "segmentMoon",
+                      "type": "ref",
+                      "ref": "uiSegment",
+                      "theme": {
+                        "temp": "moon"
+                      },
+                      "descendants": {
+                        "pillAmber": {
+                          "fill": "$color.clear"
+                        },
+                        "pillAmberLabel": {
+                          "fill": "$color.text"
+                        },
+                        "pillMoon": {
+                          "fill": "$color.accent"
+                        },
+                        "pillMoonLabel": {
+                          "fill": "$color.accentInk"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "switchRow",
+              "type": "frame",
+              "name": "switchRow",
+              "width": "fill_container",
+              "layout": "horizontal",
+              "gap": 28,
+              "alignItems": "start",
+              "children": [
+                {
+                  "id": "specSwitchOn",
+                  "type": "frame",
+                  "name": "入",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "id": "specSwitchOnCap",
+                      "type": "text",
+                      "content": "入",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.sans",
+                      "fontSize": "$font.small",
+                      "fontWeight": "500",
+                      "fill": "$color.muted",
+                      "letterSpacing": 1.6
+                    },
+                    {
+                      "id": "switchOnRow",
+                      "type": "frame",
+                      "layout": "horizontal",
+                      "alignItems": "center",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "id": "switchOnLabel",
+                          "type": "text",
+                          "content": "器具を見せない",
+                          "textGrowth": "auto",
+                          "fontFamily": "$font.serif",
+                          "fontSize": "$font.body",
+                          "fontWeight": "400",
+                          "fill": "$color.text"
+                        },
+                        {
+                          "id": "uiSwitchOn",
+                          "type": "frame",
+                          "name": "スイッチ 入 Switch On",
+                          "reusable": true,
+                          "width": 44,
+                          "height": 26,
+                          "cornerRadius": "$radius.pill",
+                          "layout": "none",
+                          "fill": "$color.accent",
+                          "children": [
+                            {
+                              "id": "uiSwitchOnThumb",
+                              "type": "ellipse",
+                              "x": 22,
+                              "y": 4,
+                              "width": 18,
+                              "height": 18,
+                              "fill": "$color.accentInk"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "specSwitchOff",
+                  "type": "frame",
+                  "name": "切",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "id": "specSwitchOffCap",
+                      "type": "text",
+                      "content": "切",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.sans",
+                      "fontSize": "$font.small",
+                      "fontWeight": "500",
+                      "fill": "$color.muted",
+                      "letterSpacing": 1.6
+                    },
+                    {
+                      "id": "switchOffRow",
+                      "type": "frame",
+                      "layout": "horizontal",
+                      "alignItems": "center",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "id": "switchOffLabel",
+                          "type": "text",
+                          "content": "器具を見せる",
+                          "textGrowth": "auto",
+                          "fontFamily": "$font.serif",
+                          "fontSize": "$font.body",
+                          "fontWeight": "400",
+                          "fill": "$color.text"
+                        },
+                        {
+                          "id": "uiSwitchOff",
+                          "type": "frame",
+                          "name": "スイッチ 切 Switch Off",
+                          "reusable": true,
+                          "width": 44,
+                          "height": 26,
+                          "cornerRadius": "$radius.pill",
+                          "layout": "none",
+                          "fill": "$color.clear",
+                          "stroke": "$color.stroke",
+                          "strokeWidth": 1,
+                          "children": [
+                            {
+                              "id": "uiSwitchOffThumb",
+                              "type": "ellipse",
+                              "x": 4,
+                              "y": 4,
+                              "width": 18,
+                              "height": 18,
+                              "fill": "$color.muted"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tempCap",
+              "type": "text",
+              "content": "同じ部品が、光のテーマで色を変えます。",
+              "textGrowth": "auto",
+              "fontFamily": "$font.sans",
+              "fontSize": "$font.small",
+              "fontWeight": "400",
+              "fill": "$color.muted",
+              "letterSpacing": 1.2
+            },
+            {
+              "id": "tempRow",
+              "type": "frame",
+              "name": "tempRow",
+              "width": "fill_container",
+              "layout": "horizontal",
+              "gap": 24,
+              "alignItems": "start",
+              "children": [
+                {
+                  "id": "tempAmber",
+                  "type": "frame",
+                  "name": "琥珀",
+                  "theme": {
+                    "temp": "amber"
+                  },
+                  "layout": "vertical",
+                  "gap": 14,
+                  "width": 320,
+                  "children": [
+                    {
+                      "id": "tempAmberCap",
+                      "type": "text",
+                      "content": "琥珀",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.sans",
+                      "fontSize": "$font.kicker",
+                      "fontWeight": "500",
+                      "fill": "$color.accent",
+                      "letterSpacing": 2.2
+                    },
+                    {
+                      "id": "tempAmberSlider",
+                      "type": "ref",
+                      "ref": "uiSlider"
+                    }
+                  ]
+                },
+                {
+                  "id": "tempFlame",
+                  "type": "frame",
+                  "name": "灯火",
+                  "theme": {
+                    "temp": "flame"
+                  },
+                  "layout": "vertical",
+                  "gap": 14,
+                  "width": 320,
+                  "children": [
+                    {
+                      "id": "tempFlameCap",
+                      "type": "text",
+                      "content": "灯火",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.sans",
+                      "fontSize": "$font.kicker",
+                      "fontWeight": "500",
+                      "fill": "$color.accent",
+                      "letterSpacing": 2.2
+                    },
+                    {
+                      "id": "tempFlameSlider",
+                      "type": "ref",
+                      "ref": "uiSlider"
+                    }
+                  ]
+                },
+                {
+                  "id": "tempMoon",
+                  "type": "frame",
+                  "name": "月",
+                  "theme": {
+                    "temp": "moon"
+                  },
+                  "layout": "vertical",
+                  "gap": 14,
+                  "width": 320,
+                  "children": [
+                    {
+                      "id": "tempMoonCap",
+                      "type": "text",
+                      "content": "月",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.sans",
+                      "fontSize": "$font.kicker",
+                      "fontWeight": "500",
+                      "fill": "$color.accent",
+                      "letterSpacing": 2.2
+                    },
+                    {
+                      "id": "tempMoonSlider",
+                      "type": "ref",
+                      "ref": "uiSlider"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ruleFields",
+          "type": "rectangle",
+          "name": "区切り",
+          "width": "fill_container",
+          "height": 1,
+          "fill": "$color.line"
+        },
+        {
+          "id": "fieldBlock",
+          "type": "frame",
+          "name": "fieldBlock",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 20,
+          "children": [
+            {
+              "id": "fieldKicker",
+              "type": "text",
+              "content": "LETTER",
+              "textGrowth": "auto",
+              "fontFamily": "$font.sans",
+              "fontSize": "$font.kicker",
+              "fontWeight": "500",
+              "fill": "$color.accent",
+              "letterSpacing": 2.6
+            },
+            {
+              "id": "fieldTitle",
+              "type": "text",
+              "content": "手紙の欄",
+              "textGrowth": "auto",
+              "fontFamily": "$font.serif",
+              "fontSize": "$font.h2",
+              "fontWeight": "700",
+              "fill": "$color.text",
+              "letterSpacing": -0.6
+            },
+            {
+              "id": "fieldLede",
+              "type": "text",
+              "content": "宛先はいまメールの一行です。次に必要になるのは、差出人、用件、本文、見学の希望です。誤りは赤で一行、フォーカスは琥珀の下線です。",
+              "textGrowth": "fixed-width",
+              "fontFamily": "$font.serif",
+              "fontSize": "$font.body",
+              "fontWeight": "400",
+              "fill": "$color.muted",
+              "lineHeight": 1.75,
+              "width": 640
+            },
+            {
+              "id": "fieldRow",
+              "type": "frame",
+              "name": "fieldRow",
+              "width": "fill_container",
+              "layout": "horizontal",
+              "gap": 32,
+              "alignItems": "start",
+              "children": [
+                {
+                  "id": "specField",
+                  "type": "frame",
+                  "name": "通常",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "id": "specFieldCap",
+                      "type": "text",
+                      "content": "通常",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.sans",
+                      "fontSize": "$font.small",
+                      "fontWeight": "500",
+                      "fill": "$color.muted",
+                      "letterSpacing": 1.6
+                    },
+                    {
+                      "id": "uiField",
+                      "type": "frame",
+                      "name": "入力欄 Field",
+                      "reusable": true,
+                      "width": 360,
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "id": "uiFieldLabel",
+                          "type": "text",
+                          "content": "差出人",
+                          "textGrowth": "auto",
+                          "fontFamily": "$font.sans",
+                          "fontSize": "$font.kicker",
+                          "fontWeight": "500",
+                          "fill": "$color.muted",
+                          "letterSpacing": 1.6
+                        },
+                        {
+                          "id": "uiFieldLine",
+                          "type": "frame",
+                          "name": "欄",
+                          "width": "fill_container",
+                          "height": 48,
+                          "layout": "horizontal",
+                          "alignItems": "end",
+                          "padding": [
+                            0,
+                            0,
+                            8,
+                            0
+                          ],
+                          "stroke": "$color.line",
+                          "strokeWidth": {
+                            "bottom": 1
+                          },
+                          "children": [
+                            {
+                              "id": "uiFieldValue",
+                              "type": "text",
+                              "content": "夜航 太郎",
+                              "textGrowth": "fixed-width",
+                              "fontFamily": "$font.serif",
+                              "fontSize": "$font.input",
+                              "fontWeight": "400",
+                              "fill": "$color.text",
+                              "width": "fill_container"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "specFieldFocus",
+                  "type": "frame",
+                  "name": "フォーカス",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "id": "specFieldFocusCap",
+                      "type": "text",
+                      "content": "フォーカス",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.sans",
+                      "fontSize": "$font.small",
+                      "fontWeight": "500",
+                      "fill": "$color.muted",
+                      "letterSpacing": 1.6
+                    },
+                    {
+                      "id": "fieldFocus",
+                      "type": "ref",
+                      "ref": "uiField",
+                      "descendants": {
+                        "uiFieldLine": {
+                          "stroke": "$color.accent"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "specFieldError",
+                  "type": "frame",
+                  "name": "誤り",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "id": "specFieldErrorCap",
+                      "type": "text",
+                      "content": "誤り",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.sans",
+                      "fontSize": "$font.small",
+                      "fontWeight": "500",
+                      "fill": "$color.muted",
+                      "letterSpacing": 1.6
+                    },
+                    {
+                      "id": "uiFieldError",
+                      "type": "frame",
+                      "name": "入力欄 誤り Field Error",
+                      "reusable": true,
+                      "width": 360,
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "id": "uiFieldErrorLabel",
+                          "type": "text",
+                          "content": "差出人",
+                          "textGrowth": "auto",
+                          "fontFamily": "$font.sans",
+                          "fontSize": "$font.kicker",
+                          "fontWeight": "500",
+                          "fill": "$color.muted",
+                          "letterSpacing": 1.6
+                        },
+                        {
+                          "id": "uiFieldErrorLine",
+                          "type": "frame",
+                          "name": "欄",
+                          "width": "fill_container",
+                          "height": 48,
+                          "layout": "horizontal",
+                          "alignItems": "end",
+                          "padding": [
+                            0,
+                            0,
+                            8,
+                            0
+                          ],
+                          "stroke": "$color.danger",
+                          "strokeWidth": {
+                            "bottom": 1
+                          },
+                          "children": [
+                            {
+                              "id": "uiFieldErrorValue",
+                              "type": "text",
+                              "content": "名前を書いてください",
+                              "textGrowth": "fixed-width",
+                              "fontFamily": "$font.serif",
+                              "fontSize": "$font.input",
+                              "fontWeight": "400",
+                              "fill": "$color.muted",
+                              "width": "fill_container"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "uiFieldErrorHint",
+                          "type": "text",
+                          "content": "宛名が空です",
+                          "textGrowth": "auto",
+                          "fontFamily": "$font.sans",
+                          "fontSize": "$font.kicker",
+                          "fontWeight": "400",
+                          "fill": "$color.danger",
+                          "letterSpacing": 0.4
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "fieldChoiceRow",
+              "type": "frame",
+              "name": "fieldChoiceRow",
+              "width": "fill_container",
+              "layout": "horizontal",
+              "gap": 48,
+              "alignItems": "start",
+              "children": [
+                {
+                  "id": "specArea",
+                  "type": "frame",
+                  "name": "本文",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "id": "specAreaCap",
+                      "type": "text",
+                      "content": "本文",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.sans",
+                      "fontSize": "$font.small",
+                      "fontWeight": "500",
+                      "fill": "$color.muted",
+                      "letterSpacing": 1.6
+                    },
+                    {
+                      "id": "uiTextarea",
+                      "type": "frame",
+                      "name": "本文 Textarea",
+                      "reusable": true,
+                      "width": 360,
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "id": "uiTextareaLabel",
+                          "type": "text",
+                          "content": "本文",
+                          "textGrowth": "auto",
+                          "fontFamily": "$font.sans",
+                          "fontSize": "$font.kicker",
+                          "fontWeight": "500",
+                          "fill": "$color.muted",
+                          "letterSpacing": 1.6
+                        },
+                        {
+                          "id": "uiTextareaLine",
+                          "type": "frame",
+                          "name": "欄",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "padding": [
+                            8,
+                            0,
+                            12,
+                            0
+                          ],
+                          "stroke": "$color.line",
+                          "strokeWidth": {
+                            "bottom": 1
+                          },
+                          "children": [
+                            {
+                              "id": "uiTextareaValue",
+                              "type": "text",
+                              "content": "神楽坂の夜に、一度だけ伺えますか。暗い場所のまま、見てみたいです。",
+                              "textGrowth": "fixed-width",
+                              "fontFamily": "$font.serif",
+                              "fontSize": "$font.input",
+                              "fontWeight": "400",
+                              "fill": "$color.text",
+                              "lineHeight": 1.7,
+                              "width": "fill_container"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "choiceCol",
+                  "type": "frame",
+                  "name": "choiceCol",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "id": "specRadioOn",
+                      "type": "frame",
+                      "name": "選択",
+                      "layout": "vertical",
+                      "gap": 10,
+                      "children": [
+                        {
+                          "id": "specRadioOnCap",
+                          "type": "text",
+                          "content": "選択",
+                          "textGrowth": "auto",
+                          "fontFamily": "$font.sans",
+                          "fontSize": "$font.small",
+                          "fontWeight": "500",
+                          "fill": "$color.muted",
+                          "letterSpacing": 1.6
+                        },
+                        {
+                          "id": "uiRadioOn",
+                          "type": "frame",
+                          "name": "ラジオ 選択 Radio On",
+                          "reusable": true,
+                          "layout": "horizontal",
+                          "gap": 10,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "id": "uiRadioOnRing",
+                              "type": "frame",
+                              "width": 16,
+                              "height": 16,
+                              "layout": "none",
+                              "children": [
+                                {
+                                  "id": "uiRadioOnOuter",
+                                  "type": "ellipse",
+                                  "x": 0,
+                                  "y": 0,
+                                  "width": 16,
+                                  "height": 16,
+                                  "fill": "$color.clear",
+                                  "stroke": "$color.accent",
+                                  "strokeWidth": 1
+                                },
+                                {
+                                  "id": "uiRadioOnDot",
+                                  "type": "ellipse",
+                                  "x": 4,
+                                  "y": 4,
+                                  "width": 8,
+                                  "height": 8,
+                                  "fill": "$color.accent"
+                                }
+                              ]
+                            },
+                            {
+                              "id": "uiRadioOnLabel",
+                              "type": "text",
+                              "content": "見学",
+                              "textGrowth": "auto",
+                              "fontFamily": "$font.serif",
+                              "fontSize": "$font.body",
+                              "fontWeight": "400",
+                              "fill": "$color.text"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "specRadioOff",
+                      "type": "frame",
+                      "name": "未選択",
+                      "layout": "vertical",
+                      "gap": 10,
+                      "children": [
+                        {
+                          "id": "specRadioOffCap",
+                          "type": "text",
+                          "content": "未選択",
+                          "textGrowth": "auto",
+                          "fontFamily": "$font.sans",
+                          "fontSize": "$font.small",
+                          "fontWeight": "500",
+                          "fill": "$color.muted",
+                          "letterSpacing": 1.6
+                        },
+                        {
+                          "id": "uiRadioOff",
+                          "type": "frame",
+                          "name": "ラジオ 未選択 Radio Off",
+                          "reusable": true,
+                          "layout": "horizontal",
+                          "gap": 10,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "id": "uiRadioOffRing",
+                              "type": "frame",
+                              "width": 16,
+                              "height": 16,
+                              "layout": "none",
+                              "children": [
+                                {
+                                  "id": "uiRadioOffOuter",
+                                  "type": "ellipse",
+                                  "x": 0,
+                                  "y": 0,
+                                  "width": 16,
+                                  "height": 16,
+                                  "fill": "$color.clear",
+                                  "stroke": "$color.stroke",
+                                  "strokeWidth": 1
+                                }
+                              ]
+                            },
+                            {
+                              "id": "uiRadioOffLabel",
+                              "type": "text",
+                              "content": "仕事の相談",
+                              "textGrowth": "auto",
+                              "fontFamily": "$font.serif",
+                              "fontSize": "$font.body",
+                              "fontWeight": "400",
+                              "fill": "$color.text"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "specCheckOff",
+                      "type": "frame",
+                      "name": "空",
+                      "layout": "vertical",
+                      "gap": 10,
+                      "children": [
+                        {
+                          "id": "specCheckOffCap",
+                          "type": "text",
+                          "content": "空",
+                          "textGrowth": "auto",
+                          "fontFamily": "$font.sans",
+                          "fontSize": "$font.small",
+                          "fontWeight": "500",
+                          "fill": "$color.muted",
+                          "letterSpacing": 1.6
+                        },
+                        {
+                          "id": "uiCheckOff",
+                          "type": "frame",
+                          "name": "チェック 空 Checkbox Off",
+                          "reusable": true,
+                          "layout": "horizontal",
+                          "gap": 10,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "id": "uiCheckOffBox",
+                              "type": "frame",
+                              "width": 16,
+                              "height": 16,
+                              "cornerRadius": 2,
+                              "layout": "horizontal",
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "fill": "$color.clear",
+                              "stroke": "$color.stroke",
+                              "strokeWidth": 1,
+                              "children": []
+                            },
+                            {
+                              "id": "uiCheckOffLabel",
+                              "type": "text",
+                              "content": "見学を希望する",
+                              "textGrowth": "auto",
+                              "fontFamily": "$font.serif",
+                              "fontSize": "$font.body",
+                              "fontWeight": "400",
+                              "fill": "$color.text"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "specCheckOn",
+                      "type": "frame",
+                      "name": "済",
+                      "layout": "vertical",
+                      "gap": 10,
+                      "children": [
+                        {
+                          "id": "specCheckOnCap",
+                          "type": "text",
+                          "content": "済",
+                          "textGrowth": "auto",
+                          "fontFamily": "$font.sans",
+                          "fontSize": "$font.small",
+                          "fontWeight": "500",
+                          "fill": "$color.muted",
+                          "letterSpacing": 1.6
+                        },
+                        {
+                          "id": "uiCheckOn",
+                          "type": "frame",
+                          "name": "チェック 済 Checkbox On",
+                          "reusable": true,
+                          "layout": "horizontal",
+                          "gap": 10,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "id": "uiCheckOnBox",
+                              "type": "frame",
+                              "width": 16,
+                              "height": 16,
+                              "cornerRadius": 2,
+                              "layout": "horizontal",
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "fill": "$color.accent",
+                              "children": [
+                                {
+                                  "id": "uiCheckOnMark",
+                                  "type": "icon",
+                                  "library": "lucide",
+                                  "icon": "check",
+                                  "width": 12,
+                                  "height": 12,
+                                  "fill": "$color.accentInk"
+                                }
+                              ]
+                            },
+                            {
+                              "id": "uiCheckOnLabel",
+                              "type": "text",
+                              "content": "見学を希望する",
+                              "textGrowth": "auto",
+                              "fontFamily": "$font.serif",
+                              "fontSize": "$font.body",
+                              "fontWeight": "400",
+                              "fill": "$color.text"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "fieldPaper",
+              "type": "frame",
+              "name": "紙の地",
+              "theme": {
+                "surface": "paper"
+              },
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 20,
+              "padding": 28,
+              "fill": "$color.bg",
+              "children": [
+                {
+                  "id": "fieldPaperCap",
+                  "type": "text",
+                  "content": "紙の地の欄",
+                  "textGrowth": "auto",
+                  "fontFamily": "$font.sans",
+                  "fontSize": "$font.small",
+                  "fontWeight": "500",
+                  "fill": "$color.muted",
+                  "letterSpacing": 1.6
+                },
+                {
+                  "id": "fieldPaperSample",
+                  "type": "ref",
+                  "ref": "uiField",
+                  "width": 420,
+                  "descendants": {
+                    "uiFieldLabel": {
+                      "content": "連絡先"
+                    },
+                    "uiFieldValue": {
+                      "content": "guest@example.jp"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ruleStatus",
+          "type": "rectangle",
+          "name": "区切り",
+          "width": "fill_container",
+          "height": 1,
+          "fill": "$color.line"
+        },
+        {
+          "id": "statusBlock",
+          "type": "frame",
+          "name": "statusBlock",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 20,
+          "children": [
+            {
+              "id": "statusKicker",
+              "type": "text",
+              "content": "STATUS",
+              "textGrowth": "auto",
+              "fontFamily": "$font.sans",
+              "fontSize": "$font.kicker",
+              "fontWeight": "500",
+              "fill": "$color.accent",
+              "letterSpacing": 2.6
+            },
+            {
+              "id": "statusTitle",
+              "type": "text",
+              "content": "案内",
+              "textGrowth": "auto",
+              "fontFamily": "$font.serif",
+              "fontSize": "$font.h2",
+              "fontWeight": "700",
+              "fill": "$color.text",
+              "letterSpacing": -0.6
+            },
+            {
+              "id": "statusLede",
+              "type": "text",
+              "content": "開室は 11時から 19時、日曜は休室。コピーしたあとの一言、ページの航跡、四つの流儀、夜を覆うメニューです。",
+              "textGrowth": "fixed-width",
+              "fontFamily": "$font.serif",
+              "fontSize": "$font.body",
+              "fontWeight": "400",
+              "fill": "$color.muted",
+              "lineHeight": 1.75,
+              "width": 640
+            },
+            {
+              "id": "uiNav",
+              "type": "frame",
+              "name": "ナビバー Nav",
+              "reusable": true,
+              "width": "fill_container",
+              "layout": "horizontal",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "padding": [
+                16,
+                24
+              ],
+              "fill": "$color.bgElevated",
+              "children": [
+                {
+                  "id": "uiNavLogo",
+                  "type": "frame",
+                  "layout": "horizontal",
+                  "alignItems": "center",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "id": "uiNavWord",
+                      "type": "text",
+                      "content": "夜航",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.serif",
+                      "fontSize": 22,
+                      "fontWeight": "700",
+                      "fill": "$color.text",
+                      "letterSpacing": 1.2
+                    },
+                    {
+                      "id": "uiNavLatin",
+                      "type": "text",
+                      "content": "YAKŌ",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.sans",
+                      "fontSize": "$font.small",
+                      "fontWeight": "500",
+                      "fill": "$color.muted",
+                      "letterSpacing": 2.4
+                    }
+                  ]
+                },
+                {
+                  "id": "uiNavLinks",
+                  "type": "frame",
+                  "layout": "horizontal",
+                  "alignItems": "center",
+                  "gap": 22,
+                  "children": [
+                    {
+                      "id": "uiNavLink",
+                      "type": "text",
+                      "name": "ナビ Nav link",
+                      "content": "作品",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.sans",
+                      "fontSize": "$font.ui",
+                      "fontWeight": "500",
+                      "fill": "$color.accent",
+                      "letterSpacing": 1.8,
+                      "reusable": true
+                    },
+                    {
+                      "id": "uiNavMethod",
+                      "type": "ref",
+                      "ref": "uiNavLink",
+                      "content": "流儀",
+                      "fill": "$color.text"
+                    },
+                    {
+                      "id": "uiNavAtelier",
+                      "type": "ref",
+                      "ref": "uiNavLink",
+                      "content": "アトリエ",
+                      "fill": "$color.text"
+                    },
+                    {
+                      "id": "uiNavContact",
+                      "type": "ref",
+                      "ref": "uiNavLink",
+                      "content": "連絡",
+                      "fill": "$color.text"
+                    }
+                  ]
+                },
+                {
+                  "id": "uiNavEnd",
+                  "type": "frame",
+                  "layout": "horizontal",
+                  "alignItems": "center",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "id": "uiStatusOpen",
+                      "type": "frame",
+                      "name": "開室 Status Open",
+                      "reusable": true,
+                      "layout": "horizontal",
+                      "alignItems": "center",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "id": "uiStatusOpenDot",
+                          "type": "ellipse",
+                          "width": 7,
+                          "height": 7,
+                          "fill": "$color.live",
+                          "effect": {
+                            "type": "shadow",
+                            "shadowType": "outer",
+                            "offset": {
+                              "x": 0,
+                              "y": 0
+                            },
+                            "blur": 8,
+                            "color": "#8dba8688"
+                          }
+                        },
+                        {
+                          "id": "uiStatusOpenLabel",
+                          "type": "text",
+                          "content": "開室中",
+                          "textGrowth": "auto",
+                          "fontFamily": "$font.sans",
+                          "fontSize": "$font.kicker",
+                          "fontWeight": "500",
+                          "fill": "$color.text",
+                          "letterSpacing": 0.8
+                        }
+                      ]
+                    },
+                    {
+                      "id": "uiNavClock",
+                      "type": "text",
+                      "content": "18:42 JST",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.sans",
+                      "fontSize": "$font.kicker",
+                      "fontWeight": "500",
+                      "fill": "$color.muted",
+                      "letterSpacing": 0.8
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "statusRow",
+              "type": "frame",
+              "name": "statusRow",
+              "width": "fill_container",
+              "layout": "horizontal",
+              "gap": 24,
+              "alignItems": "start",
+              "children": [
+                {
+                  "id": "specStatusOpen",
+                  "type": "frame",
+                  "name": "開室",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "id": "specStatusOpenCap",
+                      "type": "text",
+                      "content": "開室",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.sans",
+                      "fontSize": "$font.small",
+                      "fontWeight": "500",
+                      "fill": "$color.muted",
+                      "letterSpacing": 1.6
+                    },
+                    {
+                      "id": "statusOpenSample",
+                      "type": "ref",
+                      "ref": "uiStatusOpen"
+                    }
+                  ]
+                },
+                {
+                  "id": "specStatusClosed",
+                  "type": "frame",
+                  "name": "休室",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "id": "specStatusClosedCap",
+                      "type": "text",
+                      "content": "休室",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.sans",
+                      "fontSize": "$font.small",
+                      "fontWeight": "500",
+                      "fill": "$color.muted",
+                      "letterSpacing": 1.6
+                    },
+                    {
+                      "id": "uiStatusClosed",
+                      "type": "frame",
+                      "name": "休室 Status Closed",
+                      "reusable": true,
+                      "layout": "horizontal",
+                      "alignItems": "center",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "id": "uiStatusClosedDot",
+                          "type": "ellipse",
+                          "width": 7,
+                          "height": 7,
+                          "fill": "$color.closed"
+                        },
+                        {
+                          "id": "uiStatusClosedLabel",
+                          "type": "text",
+                          "content": "休室中",
+                          "textGrowth": "auto",
+                          "fontFamily": "$font.sans",
+                          "fontSize": "$font.kicker",
+                          "fontWeight": "500",
+                          "fill": "$color.text",
+                          "letterSpacing": 0.8
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "specToast",
+                  "type": "frame",
+                  "name": "トースト",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "id": "specToastCap",
+                      "type": "text",
+                      "content": "トースト",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.sans",
+                      "fontSize": "$font.small",
+                      "fontWeight": "500",
+                      "fill": "$color.muted",
+                      "letterSpacing": 1.6
+                    },
+                    {
+                      "id": "uiToast",
+                      "type": "frame",
+                      "name": "トースト Toast",
+                      "reusable": true,
+                      "layout": "horizontal",
+                      "alignItems": "center",
+                      "gap": 10,
+                      "padding": [
+                        12,
+                        18
+                      ],
+                      "cornerRadius": "$radius.pill",
+                      "fill": "$color.button",
+                      "children": [
+                        {
+                          "id": "uiToastIcon",
+                          "type": "icon",
+                          "library": "lucide",
+                          "icon": "check",
+                          "width": 14,
+                          "height": 14,
+                          "fill": "$color.buttonText"
+                        },
+                        {
+                          "id": "uiToastLabel",
+                          "type": "text",
+                          "content": "宛先をコピーしました",
+                          "textGrowth": "auto",
+                          "fontFamily": "$font.sans",
+                          "fontSize": "$font.ui",
+                          "fontWeight": "500",
+                          "fill": "$color.buttonText",
+                          "letterSpacing": 0.8
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "specChip",
+                  "type": "frame",
+                  "name": "チップ",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "id": "specChipCap",
+                      "type": "text",
+                      "content": "チップ",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.sans",
+                      "fontSize": "$font.small",
+                      "fontWeight": "500",
+                      "fill": "$color.muted",
+                      "letterSpacing": 1.6
+                    },
+                    {
+                      "id": "uiChip",
+                      "type": "frame",
+                      "name": "チップ Chip",
+                      "reusable": true,
+                      "layout": "horizontal",
+                      "alignItems": "center",
+                      "padding": [
+                        6,
+                        10
+                      ],
+                      "cornerRadius": "$radius.pill",
+                      "stroke": "$color.stroke",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "fill": "$color.clear",
+                      "children": [
+                        {
+                          "id": "uiChipLabel",
+                          "type": "text",
+                          "content": "銀座 · 2024",
+                          "textGrowth": "auto",
+                          "fontFamily": "$font.sans",
+                          "fontSize": "$font.small",
+                          "fontWeight": "500",
+                          "fill": "$color.muted",
+                          "letterSpacing": 1.2
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "specChipTemp",
+                  "type": "frame",
+                  "name": "温度",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "id": "specChipTempCap",
+                      "type": "text",
+                      "content": "温度",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.sans",
+                      "fontSize": "$font.small",
+                      "fontWeight": "500",
+                      "fill": "$color.muted",
+                      "letterSpacing": 1.6
+                    },
+                    {
+                      "id": "chipTemp",
+                      "type": "ref",
+                      "ref": "uiChip",
+                      "descendants": {
+                        "uiChipLabel": {
+                          "content": "2800K"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "specProgress",
+                  "type": "frame",
+                  "name": "航跡",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "id": "specProgressCap",
+                      "type": "text",
+                      "content": "航跡",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.sans",
+                      "fontSize": "$font.small",
+                      "fontWeight": "500",
+                      "fill": "$color.muted",
+                      "letterSpacing": 1.6
+                    },
+                    {
+                      "id": "uiProgress",
+                      "type": "frame",
+                      "name": "進捗 Progress",
+                      "reusable": true,
+                      "width": 240,
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "id": "uiProgressHead",
+                          "type": "frame",
+                          "width": "fill_container",
+                          "layout": "horizontal",
+                          "justifyContent": "space_between",
+                          "children": [
+                            {
+                              "id": "uiProgressLabel",
+                              "type": "text",
+                              "content": "航跡",
+                              "textGrowth": "auto",
+                              "fontFamily": "$font.sans",
+                              "fontSize": "$font.kicker",
+                              "fontWeight": "500",
+                              "fill": "$color.muted",
+                              "letterSpacing": 1.6
+                            },
+                            {
+                              "id": "uiProgressValue",
+                              "type": "text",
+                              "content": "36%",
+                              "textGrowth": "auto",
+                              "fontFamily": "$font.sans",
+                              "fontSize": "$font.kicker",
+                              "fontWeight": "500",
+                              "fill": "$color.text",
+                              "letterSpacing": 1.2
+                            }
+                          ]
+                        },
+                        {
+                          "id": "uiProgressTrack",
+                          "type": "frame",
+                          "width": 240,
+                          "height": 8,
+                          "layout": "none",
+                          "children": [
+                            {
+                              "id": "uiProgressRail",
+                              "type": "rectangle",
+                              "x": 0,
+                              "y": 3,
+                              "width": 240,
+                              "height": 2,
+                              "cornerRadius": 1,
+                              "fill": "$color.line"
+                            },
+                            {
+                              "id": "uiProgressFill",
+                              "type": "rectangle",
+                              "x": 0,
+                              "y": 3,
+                              "width": 86,
+                              "height": 2,
+                              "cornerRadius": 1,
+                              "fill": "$color.accent"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "stepList",
+              "type": "frame",
+              "name": "stepList",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 22,
+              "children": [
+                {
+                  "id": "uiStep",
+                  "type": "frame",
+                  "name": "手順 Step",
+                  "reusable": true,
+                  "width": "fill_container",
+                  "layout": "horizontal",
+                  "gap": 20,
+                  "alignItems": "start",
+                  "children": [
+                    {
+                      "id": "uiStepNo",
+                      "type": "text",
+                      "content": "01",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.sans",
+                      "fontSize": "$font.ui",
+                      "fontWeight": "500",
+                      "fill": "$color.accent",
+                      "letterSpacing": 1.4
+                    },
+                    {
+                      "id": "uiStepCopy",
+                      "type": "frame",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "id": "uiStepTitle",
+                          "type": "text",
+                          "content": "聞く",
+                          "textGrowth": "auto",
+                          "fontFamily": "$font.serif",
+                          "fontSize": "$font.h3",
+                          "fontWeight": "700",
+                          "fill": "$color.text"
+                        },
+                        {
+                          "id": "uiStepBody",
+                          "type": "text",
+                          "content": "誰が、どのくらいの時間、そこにいるのか。明るさの要望は、一度横に置きます。",
+                          "textGrowth": "fixed-width",
+                          "fontFamily": "$font.serif",
+                          "fontSize": "$font.body",
+                          "fontWeight": "400",
+                          "fill": "$color.muted",
+                          "lineHeight": 1.7,
+                          "width": "fill_container"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "stepListen",
+                  "type": "ref",
+                  "ref": "uiStep",
+                  "descendants": {
+                    "uiStepNo": {
+                      "content": "02"
+                    },
+                    "uiStepTitle": {
+                      "content": "暗がりを測る"
+                    },
+                    "uiStepBody": {
+                      "content": "既存の光を消し、目が慣れるまで待ちます。残った光が、その場所の本当の色です。"
+                    }
+                  }
+                },
+                {
+                  "id": "stepPlace",
+                  "type": "ref",
+                  "ref": "uiStep",
+                  "descendants": {
+                    "uiStepNo": {
+                      "content": "03"
+                    },
+                    "uiStepTitle": {
+                      "content": "一点を置く"
+                    },
+                    "uiStepBody": {
+                      "content": "光源は一つから。足りなければ、足すのではなく、高さを変えます。"
+                    }
+                  }
+                },
+                {
+                  "id": "stepWalk",
+                  "type": "ref",
+                  "ref": "uiStep",
+                  "descendants": {
+                    "uiStepNo": {
+                      "content": "04"
+                    },
+                    "uiStepTitle": {
+                      "content": "一緒に夜を歩く"
+                    },
+                    "uiStepBody": {
+                      "content": "施主と無言で往復します。立ち止まった場所に、光を残します。"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "menuPreview",
+              "type": "frame",
+              "name": "メニュー",
+              "width": 420,
+              "layout": "vertical",
+              "gap": 4,
+              "padding": [
+                8,
+                0,
+                0,
+                0
+              ],
+              "children": [
+                {
+                  "id": "uiMenuLink",
+                  "type": "text",
+                  "name": "メニュー Menu link",
+                  "content": "作品",
+                  "textGrowth": "auto",
+                  "fontFamily": "$font.serif",
+                  "fontSize": "$font.menu",
+                  "fontWeight": "700",
+                  "fill": "$color.text",
+                  "letterSpacing": -0.8,
+                  "reusable": true
+                },
+                {
+                  "id": "menuMethod",
+                  "type": "ref",
+                  "ref": "uiMenuLink",
+                  "content": "流儀"
+                },
+                {
+                  "id": "menuAtelier",
+                  "type": "ref",
+                  "ref": "uiMenuLink",
+                  "content": "アトリエ"
+                },
+                {
+                  "id": "menuContact",
+                  "type": "ref",
+                  "ref": "uiMenuLink",
+                  "content": "連絡"
+                },
+                {
+                  "id": "menuNote",
+                  "type": "text",
+                  "content": "神楽坂の、夜のアトリエ。",
+                  "textGrowth": "auto",
+                  "fontFamily": "$font.serif",
+                  "fontSize": "$font.body",
+                  "fontWeight": "400",
+                  "fill": "$color.muted",
+                  "lineHeight": 1.7
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ruleWorks",
+          "type": "rectangle",
+          "name": "区切り",
+          "width": "fill_container",
+          "height": 1,
+          "fill": "$color.line"
+        },
+        {
+          "id": "workBlock",
+          "type": "frame",
+          "name": "workBlock",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 20,
+          "children": [
+            {
+              "id": "workKicker",
+              "type": "text",
+              "content": "WORK",
+              "textGrowth": "auto",
+              "fontFamily": "$font.sans",
+              "fontSize": "$font.kicker",
+              "fontWeight": "500",
+              "fill": "$color.accent",
+              "letterSpacing": 2.6
+            },
+            {
+              "id": "workTitle",
+              "type": "text",
+              "content": "作品",
+              "textGrowth": "auto",
+              "fontFamily": "$font.serif",
+              "fontSize": "$font.h2",
+              "fontWeight": "700",
+              "fill": "$color.text",
+              "letterSpacing": -0.6
+            },
+            {
+              "id": "workLede",
+              "type": "text",
+              "content": "カードを開くと、夜のメモが窓になります。情景は水面茶室。隣は同じカードで、言葉だけを差し替えています。",
+              "textGrowth": "fixed-width",
+              "fontFamily": "$font.serif",
+              "fontSize": "$font.body",
+              "fontWeight": "400",
+              "fill": "$color.muted",
+              "lineHeight": 1.75,
+              "width": 640
+            },
+            {
+              "id": "workRow",
+              "type": "frame",
+              "name": "workRow",
+              "width": "fill_container",
+              "layout": "horizontal",
+              "gap": 20,
+              "alignItems": "start",
+              "children": [
+                {
+                  "id": "uiWorkCard",
+                  "type": "frame",
+                  "name": "作品カード Work",
+                  "reusable": true,
+                  "theme": {
+                    "surface": "night"
+                  },
+                  "width": 340,
+                  "height": 460,
+                  "layout": "none",
+                  "clip": true,
+                  "cornerRadius": "$radius.card",
+                  "stroke": "$color.line",
+                  "strokeWidth": 1,
+                  "children": [
+                    {
+                      "id": "uiCardScene",
+                      "type": "frame",
+                      "name": "情景",
+                      "x": 0,
+                      "y": 0,
+                      "width": 340,
+                      "height": 460,
+                      "layout": "none",
+                      "fill": [
+                        {
+                          "type": "gradient",
+                          "gradientType": "linear",
+                          "rotation": 180,
+                          "colors": [
+                            {
+                              "color": "$color.sceneTop",
+                              "position": 0
+                            },
+                            {
+                              "color": "$color.sceneBottom",
+                              "position": 1
+                            }
+                          ]
+                        },
+                        {
+                          "type": "gradient",
+                          "gradientType": "radial",
+                          "center": {
+                            "x": 0.5,
+                            "y": 0.62
+                          },
+                          "size": {
+                            "width": 0.62,
+                            "height": 0.36
+                          },
+                          "colors": [
+                            {
+                              "color": "$color.glow",
+                              "position": 0
+                            },
+                            {
+                              "color": "#f0a05a00",
+                              "position": 1
+                            }
+                          ]
+                        }
+                      ],
+                      "children": [
+                        {
+                          "id": "uiCardGlow",
+                          "type": "ellipse",
+                          "x": 122,
+                          "y": 248,
+                          "width": 96,
+                          "height": 64,
+                          "fill": "$color.glow",
+                          "effect": {
+                            "type": "blur",
+                            "radius": 18
+                          }
+                        },
+                        {
+                          "id": "uiCardRippleA",
+                          "type": "ellipse",
+                          "x": 145,
+                          "y": 292,
+                          "width": 50,
+                          "height": 16,
+                          "fill": "$color.clear",
+                          "stroke": "$color.ripple",
+                          "strokeWidth": 1
+                        },
+                        {
+                          "id": "uiCardRippleB",
+                          "type": "ellipse",
+                          "x": 118,
+                          "y": 284,
+                          "width": 104,
+                          "height": 30,
+                          "fill": "$color.clear",
+                          "stroke": "$color.ripple",
+                          "strokeWidth": 1
+                        },
+                        {
+                          "id": "uiCardRippleC",
+                          "type": "ellipse",
+                          "x": 86,
+                          "y": 274,
+                          "width": 168,
+                          "height": 46,
+                          "fill": "$color.clear",
+                          "stroke": "$color.ripple",
+                          "strokeWidth": 1
+                        }
+                      ]
+                    },
+                    {
+                      "id": "uiCardCopy",
+                      "type": "frame",
+                      "name": "キャプション",
+                      "x": 0,
+                      "y": 280,
+                      "width": 340,
+                      "height": 180,
+                      "layout": "vertical",
+                      "justifyContent": "end",
+                      "gap": 8,
+                      "padding": 24,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "rotation": 180,
+                        "colors": [
+                          {
+                            "color": "$color.veilStart",
+                            "position": 0
+                          },
+                          {
+                            "color": "$color.veilEnd",
+                            "position": 0.62
+                          }
+                        ]
+                      },
+                      "children": [
+                        {
+                          "id": "uiCardMeta",
+                          "type": "frame",
+                          "width": "fill_container",
+                          "layout": "horizontal",
+                          "justifyContent": "space_between",
+                          "children": [
+                            {
+                              "id": "uiCardIndex",
+                              "type": "text",
+                              "content": "01",
+                              "textGrowth": "auto",
+                              "fontFamily": "$font.sans",
+                              "fontSize": "$font.kicker",
+                              "fontWeight": "500",
+                              "fill": "$color.muted",
+                              "letterSpacing": 1.4
+                            },
+                            {
+                              "id": "uiCardPlace",
+                              "type": "text",
+                              "content": "銀座 · 2024",
+                              "textGrowth": "auto",
+                              "fontFamily": "$font.sans",
+                              "fontSize": "$font.kicker",
+                              "fontWeight": "500",
+                              "fill": "$color.muted",
+                              "letterSpacing": 1.4
+                            }
+                          ]
+                        },
+                        {
+                          "id": "uiCardTitle",
+                          "type": "text",
+                          "content": "水面茶室",
+                          "textGrowth": "auto",
+                          "fontFamily": "$font.serif",
+                          "fontSize": 32,
+                          "fontWeight": "700",
+                          "fill": "$color.text",
+                          "letterSpacing": -0.4
+                        },
+                        {
+                          "id": "uiCardText",
+                          "type": "text",
+                          "content": "一点の光が水面を渡り、客は自分の杯だけを見つめる。",
+                          "textGrowth": "fixed-width",
+                          "fontFamily": "$font.serif",
+                          "fontSize": 15,
+                          "fontWeight": "400",
+                          "fill": "$color.muted",
+                          "lineHeight": 1.6,
+                          "width": "fill_container"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "workKaze",
+                  "type": "ref",
+                  "ref": "uiWorkCard",
+                  "descendants": {
+                    "uiCardIndex": {
+                      "content": "02"
+                    },
+                    "uiCardPlace": {
+                      "content": "豊洲 · 2025"
+                    },
+                    "uiCardTitle": {
+                      "content": "風のカーテン"
+                    },
+                    "uiCardText": {
+                      "content": "高さ14mの光のすだれ。風で、揺れ方が変わる。"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "uiDialog",
+              "type": "frame",
+              "name": "作品の窓 Dialog",
+              "reusable": true,
+              "theme": {
+                "surface": "night"
+              },
+              "width": 920,
+              "height": 500,
+              "layout": "horizontal",
+              "clip": true,
+              "cornerRadius": "$radius.panel",
+              "fill": "$color.bgElevated",
+              "children": [
+                {
+                  "id": "uiDialogScene",
+                  "type": "frame",
+                  "name": "情景",
+                  "width": 360,
+                  "height": "fill_container",
+                  "layout": "none",
+                  "fill": [
+                    {
+                      "type": "gradient",
+                      "gradientType": "linear",
+                      "rotation": 180,
+                      "colors": [
+                        {
+                          "color": "$color.sceneTop",
+                          "position": 0
+                        },
+                        {
+                          "color": "$color.sceneBottom",
+                          "position": 1
+                        }
+                      ]
+                    },
+                    {
+                      "type": "gradient",
+                      "gradientType": "radial",
+                      "center": {
+                        "x": 0.5,
+                        "y": 0.62
+                      },
+                      "size": {
+                        "width": 0.62,
+                        "height": 0.36
+                      },
+                      "colors": [
+                        {
+                          "color": "$color.glow",
+                          "position": 0
+                        },
+                        {
+                          "color": "#f0a05a00",
+                          "position": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "children": [
+                    {
+                      "id": "uiDialogGlow",
+                      "type": "ellipse",
+                      "x": 132,
+                      "y": 250,
+                      "width": 96,
+                      "height": 64,
+                      "fill": "$color.glow",
+                      "effect": {
+                        "type": "blur",
+                        "radius": 18
+                      }
+                    },
+                    {
+                      "id": "uiDialogRippleA",
+                      "type": "ellipse",
+                      "x": 155,
+                      "y": 300,
+                      "width": 50,
+                      "height": 16,
+                      "fill": "$color.clear",
+                      "stroke": "$color.ripple",
+                      "strokeWidth": 1
+                    },
+                    {
+                      "id": "uiDialogRippleB",
+                      "type": "ellipse",
+                      "x": 128,
+                      "y": 292,
+                      "width": 104,
+                      "height": 30,
+                      "fill": "$color.clear",
+                      "stroke": "$color.ripple",
+                      "strokeWidth": 1
+                    }
+                  ]
+                },
+                {
+                  "id": "uiDialogBody",
+                  "type": "frame",
+                  "name": "本文",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "id": "uiDialogTop",
+                      "type": "frame",
+                      "width": "fill_container",
+                      "layout": "horizontal",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "id": "uiDialogMeta",
+                          "type": "text",
+                          "content": "01 — 銀座 · 2024",
+                          "textGrowth": "auto",
+                          "fontFamily": "$font.sans",
+                          "fontSize": "$font.kicker",
+                          "fontWeight": "500",
+                          "fill": "$color.accent",
+                          "letterSpacing": 1.8
+                        },
+                        {
+                          "id": "uiDialogClose",
+                          "type": "ref",
+                          "ref": "uiClose"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "uiDialogTitle",
+                      "type": "text",
+                      "content": "水面茶室",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.serif",
+                      "fontSize": "$font.h2",
+                      "fontWeight": "700",
+                      "fill": "$color.text",
+                      "letterSpacing": -0.6
+                    },
+                    {
+                      "id": "uiDialogText",
+                      "type": "text",
+                      "content": "銀座の路地に、四畳半。天井は低く、水面は床の中央にあります。光源は天井の一点だけ。波紋が杯の縁まで届いたとき、初めて湯気が見えます。",
+                      "textGrowth": "fixed-width",
+                      "fontFamily": "$font.serif",
+                      "fontSize": "$font.body",
+                      "fontWeight": "400",
+                      "fill": "$color.muted",
+                      "lineHeight": 1.75,
+                      "width": "fill_container"
+                    },
+                    {
+                      "id": "uiDialogNote",
+                      "type": "text",
+                      "content": "照明器具は、見せていません。",
+                      "textGrowth": "fixed-width",
+                      "fontFamily": "$font.serif",
+                      "fontSize": "$font.body",
+                      "fontWeight": "400",
+                      "fill": "$color.text",
+                      "width": "fill_container"
+                    },
+                    {
+                      "id": "uiDialogNav",
+                      "type": "frame",
+                      "layout": "horizontal",
+                      "gap": 20,
+                      "padding": [
+                        8,
+                        0,
+                        0,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "id": "uiDialogPrev",
+                          "type": "ref",
+                          "ref": "uiButtonText"
+                        },
+                        {
+                          "id": "uiDialogNext",
+                          "type": "ref",
+                          "ref": "uiButtonText",
+                          "descendants": {
+                            "uiButtonTextLabel": {
+                              "content": "次の作品"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ruleScreens",
+          "type": "rectangle",
+          "name": "区切り",
+          "width": "fill_container",
+          "height": 1,
+          "fill": "$color.line"
+        },
+        {
+          "id": "screenBlock",
+          "type": "frame",
+          "name": "screenBlock",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 20,
+          "children": [
+            {
+              "id": "screenKicker",
+              "type": "text",
+              "content": "SCREENS",
+              "textGrowth": "auto",
+              "fontFamily": "$font.sans",
+              "fontSize": "$font.kicker",
+              "fontWeight": "500",
+              "fill": "$color.accent",
+              "letterSpacing": 2.6
+            },
+            {
+              "id": "screenTitle",
+              "type": "text",
+              "content": "画面",
+              "textGrowth": "auto",
+              "fontFamily": "$font.serif",
+              "fontSize": "$font.h2",
+              "fontWeight": "700",
+              "fill": "$color.text",
+              "letterSpacing": -0.6
+            },
+            {
+              "id": "screenLede",
+              "type": "text",
+              "content": "左は作品を開いたあとの調光卓。右は紙の地に置く、一通の手紙です。どちらも上の部品を置いただけです。",
+              "textGrowth": "fixed-width",
+              "fontFamily": "$font.serif",
+              "fontSize": "$font.body",
+              "fontWeight": "400",
+              "fill": "$color.muted",
+              "lineHeight": 1.75,
+              "width": 640
+            },
+            {
+              "id": "screenRow",
+              "type": "frame",
+              "name": "screenRow",
+              "width": "fill_container",
+              "layout": "horizontal",
+              "gap": 28,
+              "alignItems": "start",
+              "children": [
+                {
+                  "id": "screenConsole",
+                  "type": "frame",
+                  "name": "調光卓",
+                  "theme": {
+                    "surface": "night"
+                  },
+                  "width": 420,
+                  "layout": "vertical",
+                  "gap": 22,
+                  "padding": 28,
+                  "cornerRadius": "$radius.panel",
+                  "fill": "$color.bgElevated",
+                  "stroke": "$color.line",
+                  "strokeWidth": 1,
+                  "children": [
+                    {
+                      "id": "consoleTop",
+                      "type": "frame",
+                      "width": "fill_container",
+                      "layout": "horizontal",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "id": "consoleKicker",
+                          "type": "text",
+                          "content": "調光",
+                          "textGrowth": "auto",
+                          "fontFamily": "$font.sans",
+                          "fontSize": "$font.kicker",
+                          "fontWeight": "500",
+                          "fill": "$color.accent",
+                          "letterSpacing": 2.6
+                        },
+                        {
+                          "id": "consoleStatus",
+                          "type": "ref",
+                          "ref": "uiStatusOpen"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "consoleIntro",
+                      "type": "frame",
+                      "name": "consoleIntro",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "id": "consoleTitle",
+                          "type": "text",
+                          "content": "水面茶室",
+                          "textGrowth": "auto",
+                          "fontFamily": "$font.serif",
+                          "fontSize": 32,
+                          "fontWeight": "700",
+                          "fill": "$color.text",
+                          "letterSpacing": -0.4
+                        },
+                        {
+                          "id": "consoleMeta",
+                          "type": "text",
+                          "content": "01 — 銀座 · 2024",
+                          "textGrowth": "auto",
+                          "fontFamily": "$font.sans",
+                          "fontSize": "$font.kicker",
+                          "fontWeight": "500",
+                          "fill": "$color.muted",
+                          "letterSpacing": 1.4
+                        }
+                      ]
+                    },
+                    {
+                      "id": "consoleSegment",
+                      "type": "ref",
+                      "ref": "uiSegment"
+                    },
+                    {
+                      "id": "consoleBright",
+                      "type": "ref",
+                      "ref": "uiSlider",
+                      "descendants": {
+                        "uiSliderValue": {
+                          "content": "42%"
+                        },
+                        "uiSliderFill": {
+                          "width": 134
+                        },
+                        "uiSliderThumb": {
+                          "x": 126
+                        }
+                      }
+                    },
+                    {
+                      "id": "consoleKelvin",
+                      "type": "ref",
+                      "ref": "uiKelvin"
+                    },
+                    {
+                      "id": "consoleHeight",
+                      "type": "ref",
+                      "ref": "uiSlider",
+                      "descendants": {
+                        "uiSliderLabel": {
+                          "content": "光の高さ"
+                        },
+                        "uiSliderValue": {
+                          "content": "1.4 m"
+                        },
+                        "uiSliderMin": {
+                          "content": "0.4 m"
+                        },
+                        "uiSliderMax": {
+                          "content": "4.0 m"
+                        },
+                        "uiSliderFill": {
+                          "width": 89
+                        },
+                        "uiSliderThumb": {
+                          "x": 81
+                        }
+                      }
+                    },
+                    {
+                      "id": "consoleSwitch",
+                      "type": "frame",
+                      "width": "fill_container",
+                      "layout": "horizontal",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "id": "consoleSwitchLabel",
+                          "type": "text",
+                          "content": "器具を見せない",
+                          "textGrowth": "auto",
+                          "fontFamily": "$font.serif",
+                          "fontSize": "$font.body",
+                          "fontWeight": "400",
+                          "fill": "$color.text"
+                        },
+                        {
+                          "id": "consoleSwitchCtrl",
+                          "type": "ref",
+                          "ref": "uiSwitchOn"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "consoleSave",
+                      "type": "ref",
+                      "ref": "uiButton",
+                      "descendants": {
+                        "uiButtonLabel": {
+                          "content": "この夜を残す"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "screenLetter",
+                  "type": "frame",
+                  "name": "手紙",
+                  "theme": {
+                    "surface": "paper"
+                  },
+                  "width": 640,
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": [
+                    36,
+                    40
+                  ],
+                  "fill": "$color.bg",
+                  "children": [
+                    {
+                      "id": "letterKicker",
+                      "type": "text",
+                      "content": "連絡",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.sans",
+                      "fontSize": "$font.kicker",
+                      "fontWeight": "500",
+                      "fill": "$color.accent",
+                      "letterSpacing": 2.6
+                    },
+                    {
+                      "id": "letterTitle",
+                      "type": "text",
+                      "content": "手紙を、一通。",
+                      "textGrowth": "auto",
+                      "fontFamily": "$font.serif",
+                      "fontSize": "$font.h2",
+                      "fontWeight": "700",
+                      "fill": "$color.text",
+                      "letterSpacing": -0.6
+                    },
+                    {
+                      "id": "letterLede",
+                      "type": "text",
+                      "content": "見学も、仕事の相談も、同じ机で読んでいます。この宛先は架空のアトリエのものです。",
+                      "textGrowth": "fixed-width",
+                      "fontFamily": "$font.serif",
+                      "fontSize": "$font.body",
+                      "fontWeight": "400",
+                      "fill": "$color.muted",
+                      "lineHeight": 1.75,
+                      "width": 520
+                    },
+                    {
+                      "id": "letterName",
+                      "type": "ref",
+                      "ref": "uiField",
+                      "width": "fill_container",
+                      "descendants": {
+                        "uiFieldLabel": {
+                          "content": "差出人"
+                        },
+                        "uiFieldValue": {
+                          "content": "夜航 太郎"
+                        }
+                      }
+                    },
+                    {
+                      "id": "letterMail",
+                      "type": "ref",
+                      "ref": "uiField",
+                      "width": "fill_container",
+                      "descendants": {
+                        "uiFieldLabel": {
+                          "content": "連絡先"
+                        },
+                        "uiFieldValue": {
+                          "content": "guest@example.jp"
+                        }
+                      }
+                    },
+                    {
+                      "id": "letterRadios",
+                      "type": "frame",
+                      "layout": "horizontal",
+                      "gap": 24,
+                      "children": [
+                        {
+                          "id": "letterVisit",
+                          "type": "ref",
+                          "ref": "uiRadioOn"
+                        },
+                        {
+                          "id": "letterWork",
+                          "type": "ref",
+                          "ref": "uiRadioOff"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "letterBody",
+                      "type": "ref",
+                      "ref": "uiTextarea",
+                      "width": "fill_container"
+                    },
+                    {
+                      "id": "letterCheck",
+                      "type": "ref",
+                      "ref": "uiCheckOn",
+                      "descendants": {
+                        "uiCheckOnLabel": {
+                          "content": "月に二度の見学を希望する"
+                        }
+                      }
+                    },
+                    {
+                      "id": "letterActions",
+                      "type": "frame",
+                      "layout": "horizontal",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "id": "letterSend",
+                          "type": "ref",
+                          "ref": "uiButton",
+                          "descendants": {
+                            "uiButtonLabel": {
+                              "content": "手紙を送る"
+                            }
+                          }
+                        },
+                        {
+                          "id": "letterCopy",
+                          "type": "ref",
+                          "ref": "uiButtonGhost",
+                          "descendants": {
+                            "uiButtonGhostLabel": {
+                              "content": "宛先をコピー"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "readme",
+      "type": "note",
+      "name": "開き方",
+      "x": 1360,
+      "y": 0,
+      "width": 340,
+      "height": 360,
+      "content": "夜航 YAKŌ の UI キットです。Pencil（.pen）で開いてください。\n\nテーマ\n・surface：night / paper\n・temp：amber / flame / moon\n\n部品は reusable です。画面は ref で言葉とつまみの位置だけを差し替えています。書体は Shippori Mincho と Outfit。未インストールの環境では代替で表示されます。"
+    }
+  ]
+}
