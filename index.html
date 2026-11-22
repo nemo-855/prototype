@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="ja" data-temp="amber">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>夜航 YAKŌ — 光と余白のアトリエ</title>
+  <meta name="description" content="暗い場所が美しくなるように、光を置く。東京・神楽坂を舞台にした、架空のライティングアトリエ。">
+  <meta name="theme-color" content="#090807">
+  <meta property="og:title" content="夜航 YAKŌ — 光と余白のアトリエ">
+  <meta property="og:description" content="暗い場所が美しくなるように、光を置く。架空のライティングアトリエ。">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect fill='%23090807' width='32' height='32'/%3E%3Ccircle fill='%23f0a05a' cx='16' cy='16' r='6'/%3E%3C/svg%3E">
+  <link rel="preload" href="fonts/shippori-700-ja.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/shippori-500-ja.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">本文へ</a>
+  <div class="progress" id="progress" aria-hidden="true"></div>
+
+  <div class="loader" id="loader">
+    <div class="loader-inner">
+      <p class="loader-kicker">YAKŌ</p>
+      <p class="loader-word">夜航</p>
+      <div class="loader-line"></div>
+    </div>
+  </div>
+
+  <div class="cursor" id="cursor" aria-hidden="true"></div>
+  <div class="cursor-ring" id="ring" aria-hidden="true"></div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <header class="nav" id="nav">
+    <a class="logo" href="#top">夜航 <span>YAKŌ</span></a>
+    <nav class="nav-links" aria-label="主要">
+      <a href="#works">作品</a>
+      <a href="#method">流儀</a>
+      <a href="#atelier">アトリエ</a>
+      <a href="#contact">連絡</a>
+    </nav>
+    <div class="nav-end">
+      <p class="nav-status">
+        <span class="dot" id="dot"></span>
+        <span id="status">—</span>
+        <time id="clock">--:--</time>
+      </p>
+      <button class="menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-controls="menu">メニュー</button>
+    </div>
+  </header>
+
+  <div class="menu" id="menu" hidden>
+    <nav aria-label="メニュー">
+      <a href="#works">作品</a>
+      <a href="#method">流儀</a>
+      <a href="#atelier">アトリエ</a>
+      <a href="#contact">連絡</a>
+    </nav>
+    <p>神楽坂の、夜のアトリエ。</p>
+  </div>
+
+  <nav class="side" aria-label="章">
+    <a href="#top">01</a>
+    <a href="#manifesto">02</a>
+    <a href="#works">03</a>
+    <a href="#method">04</a>
+    <a href="#atelier">05</a>
+    <a href="#contact">06</a>
+  </nav>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <canvas id="field" aria-hidden="true"></canvas>
+      <div class="hero-main">
+        <p class="kicker">Lighting Atelier · Tokyo</p>
+        <h1 data-split>
+          <span class="line">夜に、</span>
+          <span class="line">航跡を。</span>
+        </h1>
+        <div class="hero-bottom">
+          <p class="lede">神楽坂の小さなアトリエです。暗い場所を消すのではなく、暗い場所が美しくなるように光を置きます。</p>
+          <div class="hero-actions">
+            <a class="btn" href="#works">作品を見る <span class="arrow" aria-hidden="true">→</span></a>
+            <a class="btn btn-ghost" href="#atelier">アトリエへ <span class="arrow" aria-hidden="true">→</span></a>
+          </div>
+        </div>
+      </div>
+      <div class="hero-foot">
+        <div class="temp" role="radiogroup" aria-label="光の温度">
+          <button type="button" role="radio" aria-checked="true" data-temp="amber">琥珀</button>
+          <button type="button" role="radio" aria-checked="false" data-temp="flame">灯火</button>
+          <button type="button" role="radio" aria-checked="false" data-temp="moon">月</button>
+        </div>
+        <a class="scrollcue" href="#manifesto">下へ <i aria-hidden="true"></i></a>
+      </div>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <p class="marquee-group">
+          <span>光跡</span><span>余白</span><span>静けさ</span><span>温度</span><span>反射</span><span>陰影</span><span>呼吸</span><span>一点</span>
+        </p>
+        <p class="marquee-group">
+          <span>光跡</span><span>余白</span><span>静けさ</span><span>温度</span><span>反射</span><span>陰影</span><span>呼吸</span><span>一点</span>
+        </p>
+      </div>
+    </div>
+
+    <section class="section manifesto" id="manifesto">
+      <p class="kicker reveal">宣言</p>
+      <p class="spot" id="spot">私たちは、明るさを売りません。人がふと足を止め、隣の顔を見たくなるような、温度のある暗がりをつくります。光は主張せず、空間の呼吸になります。</p>
+      <p class="hint reveal">光は、文字の上を渡っていきます。</p>
+    </section>
+
+    <section class="section works" id="works">
+      <div class="section-head reveal">
+        <p class="kicker">作品</p>
+        <h2>最近の航跡</h2>
+        <p>四点だけ、ここに残しています。カードを開くと、夜のメモが読めます。</p>
+      </div>
+      <div class="works-grid">
+        <button class="work reveal" type="button" data-open="mizu">
+          <span class="scene scene-mizu" data-bits="4"></span>
+          <span class="work-copy">
+            <span class="work-meta"><span>01</span><span>銀座 · 2024</span></span>
+            <span class="work-title">水面茶室</span>
+            <span class="work-text">一点の光が水面を渡り、客は自分の杯だけを見つめる。</span>
+          </span>
+        </button>
+        <button class="work reveal" type="button" data-open="kaze">
+          <span class="scene scene-kaze" data-bits="9"></span>
+          <span class="work-copy">
+            <span class="work-meta"><span>02</span><span>豊洲 · 2025</span></span>
+            <span class="work-title">風のカーテン</span>
+            <span class="work-text">高さ14mの光のすだれ。風で、揺れ方が変わる。</span>
+          </span>
+        </button>
+        <button class="work reveal" type="button" data-open="page">
+          <span class="scene scene-page" data-bits="8"></span>
+          <span class="work-copy">
+            <span class="work-meta"><span>03</span><span>神保町 · 2023</span></span>
+            <span class="work-title">頁の縁</span>
+            <span class="work-text">書棚は暗く、開いた頁の端だけが灯る。</span>
+          </span>
+        </button>
+        <blockquote class="pull reveal">
+          <p>足を止めた場所に、光を残す。</p>
+          <cite>夜航の流儀</cite>
+        </blockquote>
+        <button class="work reveal" type="button" data-open="floor">
+          <span class="scene scene-floor" data-bits="24"></span>
+          <span class="work-copy">
+            <span class="work-meta"><span>04</span><span>京都 · 2022</span></span>
+            <span class="work-title">歩く床</span>
+            <span class="work-text">廊下の石が、足音の半歩先だけ淡く灯る。</span>
+          </span>
+        </button>
+      </div>
+    </section>
+
+    <section class="section method" id="method">
+      <div class="method-intro">
+        <p class="kicker">流儀</p>
+        <h2>光を足す前に、夜を見る。</h2>
+      </div>
+      <ol class="steps" id="steps">
+        <li class="step">
+          <span class="step-no">01</span>
+          <div>
+            <h3>聞く</h3>
+            <p>誰が、どのくらいの時間、そこにいるのか。明るさの要望は、一度横に置きます。</p>
+          </div>
+        </li>
+        <li class="step">
+          <span class="step-no">02</span>
+          <div>
+            <h3>暗がりを測る</h3>
+            <p>既存の光を消し、目が慣れるまで待ちます。残った光が、その場所の本当の色です。</p>
+          </div>
+        </li>
+        <li class="step">
+          <span class="step-no">03</span>
+          <div>
+            <h3>一点を置く</h3>
+            <p>光源は一つから。足りなければ、足すのではなく、高さを変えます。</p>
+          </div>
+        </li>
+        <li class="step">
+          <span class="step-no">04</span>
+          <div>
+            <h3>一緒に夜を歩く</h3>
+            <p>施主と無言で往復します。立ち止まった場所に、光を残します。</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <section class="stats" aria-label="数字">
+      <ul>
+        <li class="reveal"><strong data-count="48">0</strong><span>照らした空間</span></li>
+        <li class="reveal"><strong data-count="7">0</strong><span>都市</span></li>
+        <li class="reveal"><strong data-count="12">0</strong><span>年</span></li>
+        <li class="reveal"><strong data-count="4">0</strong><span>人のアトリエ</span></li>
+      </ul>
+    </section>
+
+    <section class="section paper" id="atelier" data-surface="paper">
+      <div class="atelier-grid">
+        <div class="reveal">
+          <p class="kicker">アトリエ</p>
+          <h2>昼は図面。<br>夜は、実寸の暗がり。</h2>
+          <p class="prose">築七十年の町家です。器具のカタログではなく、その夜の空気を見てから光を決めます。見学は月に二度。事前に手紙をください。</p>
+          <dl class="facts">
+            <div><dt>場所</dt><dd>東京・神楽坂の路地<br>番地は手紙にだけ</dd></div>
+            <div><dt>開室</dt><dd>11:00–19:00<br>日曜は休室</dd></div>
+            <div><dt>位置</dt><dd>35°42′ N<br>139°44′ E</dd></div>
+          </dl>
+        </div>
+        <div class="window reveal" aria-hidden="true">
+          <div class="window-glass">
+            <span class="lamp"></span>
+            <span class="table"></span>
+            <span class="sill"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section paper contact" id="contact" data-surface="paper">
+      <p class="kicker reveal">連絡</p>
+      <h2 class="reveal">手紙を、一通。</h2>
+      <p class="prose reveal">見学も、仕事の相談も、同じ机で読んでいます。この宛先は架空のアトリエのものです。</p>
+      <p class="mail reveal"><a id="mail" href="mailto:desk@yako-atelier.jp">desk@yako-atelier.jp</a></p>
+      <div class="hero-actions reveal">
+        <a class="btn" href="mailto:desk@yako-atelier.jp">手紙を書く <span class="arrow" aria-hidden="true">→</span></a>
+        <button class="btn btn-ghost" id="copyBtn" type="button">宛先をコピー</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-top">
+      <a class="logo" href="#top">夜航</a>
+      <p>このページのアトリエは架空のものです。</p>
+      <p>© 2026 YAKŌ</p>
+    </div>
+    <a class="footer-word" href="#top">夜航</a>
+  </footer>
+
+  <dialog class="sheet" id="dialog" aria-labelledby="dialogTitle">
+    <div class="dialog-grid">
+      <div class="dialog-visual scene" id="dialogScene"></div>
+      <div class="dialog-body">
+        <button class="sheet-close" id="dialogClose" type="button">閉じる</button>
+        <p class="kicker" id="dialogMeta"></p>
+        <h2 id="dialogTitle"></h2>
+        <p id="dialogText"></p>
+        <p class="dialog-note" id="dialogNote"></p>
+        <div class="dialog-nav">
+          <button type="button" data-dir="-1">前の作品</button>
+          <button type="button" data-dir="1">次の作品</button>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
